@@ -57,14 +57,16 @@ namespace Threading {
             center.y += -sin * offset.x + cos * offset.y;
             center.z += offset.z;
             furnitureScaleMult = offset.scale;
-
-            removeActorsFromFurnitureFactions();
         } else {
             furnitureType = Furniture::FurnitureTable::getFurnitureType("none");
         }
 
         for (int i = 0; i < params.actors.size(); i++) {
             addActorInner(i, params.actors[i].form);
+        }
+
+        if (furniture) {
+            addActorsToFurnitureFactions();
         }
 
         // TODO game API?
@@ -663,6 +665,8 @@ namespace Threading {
                 // TODO properly use GameObject
                 Furniture::resetClutter(furniture.form, MCM::MCMTable::resetClutterRadius() * 100);
             }
+
+            removeActorsFromFurnitureFactions();
         }
 
         logger::info("closed thread {}", m_threadId);
