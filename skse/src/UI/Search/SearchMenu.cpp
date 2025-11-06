@@ -73,16 +73,7 @@ namespace UI::Search {
         ApplyPositions();
 
         auto controlMap = RE::ControlMap::GetSingleton();
-        if (REL::Module::get().version().patch() < 1130) {
-            controlMap->AllowTextInput(true);
-        } else {
-            // bandaid fix until CLib-NG is updated
-            int8_t* ptr = &controlMap->GetRuntimeData().textEntryCount;
-            ptr += 8;
-            if (*ptr != -1) {
-                ++(*ptr);
-            }
-        }
+        controlMap->AllowTextInput(true);
         
         QueueUITask([this]() {
             Locker locker(_lock);
@@ -97,16 +88,7 @@ namespace UI::Search {
         OStimMenu::Hide();
 
         auto controlMap = RE::ControlMap::GetSingleton();
-        if (REL::Module::get().version().patch() < 1130) {
-            controlMap->AllowTextInput(false);
-        } else {
-            // bandaid fix until CLib-NG is updated
-            int8_t* ptr = &controlMap->GetRuntimeData().textEntryCount;
-            ptr += 8;
-            if (*ptr != 0) {
-                --(*ptr);
-            }
-        }
+        controlMap->AllowTextInput(false);
         
 
         QueueUITask([this]() {

@@ -182,10 +182,6 @@ namespace Threading {
             if (threadID != 0) {
                 idGenerator.free(threadID);
             }
-            auto log = RE::ConsoleLog::GetSingleton();
-            if (log) {
-                log->Print(("Found scene: erasing " + std::to_string(threadID)).c_str());
-            }
         } else {
             logger::info("no thread found with id {}", threadID);
         }
