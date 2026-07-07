@@ -218,6 +218,7 @@ namespace Threading {
         std::unordered_map<std::string, EquipObjectHandler> equipObjects;
         std::vector<std::string> phonemeObjects;
 
+        void changeNodeEquipObjects(Graph::GraphActor* graphActor);
         void loopEquipObjects();
 #pragma endregion
 

@@ -26,6 +26,7 @@ namespace Graph {
         bool talk = false;
         bool muffled = false;
         GameAPI::GamePosition offset;
+        std::set<std::string> equipObjects;
         std::vector<GameAPI::GameFaction> factions;
         std::vector<GameAPI::GameFaction> statFactions;
         std::unordered_map<int, Trait::FaceModifier> eyeballModifierOverride;

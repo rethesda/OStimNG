@@ -29,6 +29,8 @@ namespace Graph {
             }
         }
 
+        JsonUtil::consumeLowerStringList(json, [&actor](std::string equipObject) { actor.equipObjects.insert(equipObject); }, "equipObject", filename, "action", false);
+
         if (json.contains("faction")) {
             if (json["faction"].is_array()) {
                 for (auto& jsonFaction : json["faction"]) {

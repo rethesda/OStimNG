@@ -5,12 +5,15 @@
 
 namespace Graph {
     void GraphActor::merge(Action::ActionActor& actor) {
-        for (const std::string& requirement : actor.requirements) {
-            condition.requirements.insert(requirement);
-        }
         moan |= actor.moan;
         talk |= actor.talk;
         muffled |= actor.muffled;
+        for (const std::string& requirement : actor.requirements) {
+            condition.requirements.insert(requirement);
+        }
+        for (const std::string& equipObject : actor.equipObjects) {
+            equipObjects.insert(equipObject);
+        }
         for (GameAPI::GameFaction faction : actor.factions) {
             if (!VectorUtil::contains(factions, faction)) {
                 factions.push_back(faction);

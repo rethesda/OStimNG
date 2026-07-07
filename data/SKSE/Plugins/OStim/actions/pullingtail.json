@@ -15,15 +15,13 @@
 		]
 	},
 	"target":{
-		"info": "the one with the head",
+		"info": "the one with the tail",
 		"stimulation":0.1,
 		"maxStimulation":50,
 		"requirements":[
+			"tail"
 		],
-		"strippingSlots":[
-			30,
-			31
-		]
+		"equipObject": "tail"
 	},
 	"performer":{
 		"floats":{

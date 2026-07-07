@@ -268,6 +268,7 @@ namespace Threading {
 
     void ThreadActor::changeNode(Graph::GraphActor* graphActor, std::vector<Trait::FacialExpression*>* nodeExpressions, std::vector<Trait::FacialExpression*>* overrideExpressions) {
         changeNodeAPIPre();
+        changeNodeEquipObjects(graphActor);
         
         this->graphActor = graphActor;
 

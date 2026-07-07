@@ -1,0 +1,67 @@
+{
+	"actor":{
+		"info": "the one with the tail",
+		"stimulation":0.1,
+		"maxStimulation":50,
+		"moan":true,
+		"talk":true,
+		"requirements":[
+			"tail"
+		],
+		"equipObject": "tail",
+		"faction":{
+			"info": "OStimVaginalTailSexActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF86"
+		},
+		"statFaction":{
+			"info": "OStimVaginalTailSexActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF88"
+		}
+	},
+	"target":{
+		"info": "the one with the vulva",
+		"stimulation":1.0,
+		"fullStrip":true,
+		"moan":true,
+		"talk":true,
+		"requirements":[
+			"vagina"
+		],
+		"strippingSlots":[
+			32,
+			49,
+			52,
+			53,
+			54
+		],
+		"toySlot": "genital",
+		"faction":{
+			"info": "OStimVaginalTailSexTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF87"
+		},
+		"statFaction":{
+			"info": "OStimVaginalTailSexTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF89"
+		}
+	},
+	"performer":{
+		"floats":{
+			"stamina":1.0
+		}
+	},
+	"peak":{
+		"type":"bonedistance",
+		"actorBone":"NPC Genitals01 [Gen01]",
+		"targetBone":"VaginaDeep1"
+	},
+	"tags":[
+		"intercourse",
+		"sexual",
+		"vaginalpenetration",
+		"vaginalstimulation"
+	]
+}

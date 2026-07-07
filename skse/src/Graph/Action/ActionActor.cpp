@@ -21,7 +21,15 @@ namespace Graph {
                 muffled = true;
             }
 
+            for (std::string requirement : other.requirements) {
+                requirements.insert(requirement);
+            }
+
             strippingMask |= other.strippingMask;
+
+            for (std::string equipObject : other.equipObjects) {
+                equipObjects.insert(equipObject);
+            }
 
             for (GameAPI::GameFaction faction : other.factions) {
                 if (!VectorUtil::contains(factions, faction)) {

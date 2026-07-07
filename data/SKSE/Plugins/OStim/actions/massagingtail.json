@@ -4,18 +4,7 @@
 		"massage"
 	],
 	"actor": {
-		"info": "the one who is doing massage with hands",
-		"requirements":[
-			"hand"
-		],
-		"strippingSlots":[
-			33
-		],
-		"faction":{
-			"info": "OStimMassagingActorFaction",
-			"mod": "OStim.esp",
-			"formid": "0xF7C"
-		}
+		"info": "the one who is doing massage with hands"
 	},
 	"target": {
 		"info": "the one who is receiving the massage",
@@ -35,12 +24,7 @@
 			53,
 			54,
 			55
-		],
-		"faction":{
-			"info": "OStimMassagingTargetFaction",
-			"mod": "OStim.esp",
-			"formid": "0xF7D"
-		}
+		]
 	},
 	"tags": [
 		"sensual"

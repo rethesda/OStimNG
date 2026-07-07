@@ -15,6 +15,7 @@ namespace Graph {
             std::string expressionOverride = "";
             std::set<std::string> requirements;
             uint32_t strippingMask = 0;
+            std::set<std::string> equipObjects;
             std::vector<GameAPI::GameFaction> factions;
             std::vector<GameAPI::GameFaction> statFactions;
             std::vector<GameAPI::GameFaction> playerStatFactions;
