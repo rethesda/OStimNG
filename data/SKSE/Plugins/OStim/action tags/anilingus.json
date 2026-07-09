@@ -9,6 +9,11 @@
 			"info": "OStimAnilingusActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF3B"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnilingusWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF93"
 		}
 	},
 	"target":{
@@ -21,6 +26,11 @@
 			"info": "OStimAnilingusTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF3C"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnilingusWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF94"
 		}
 	},
 	"performer":{

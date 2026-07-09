@@ -9,6 +9,11 @@
 			"info": "OStimAnyFingeringActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF05"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnyFingeringWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF99"
 		}
 	},
 	"target":{
@@ -21,6 +26,11 @@
 			"info": "OStimAnyFingeringTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF06"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnyFingeringWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF9A"
 		}
 	}
 }

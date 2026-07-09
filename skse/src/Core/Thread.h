@@ -215,7 +215,7 @@ namespace Threading {
 #pragma region furniture
     public:
         inline GameAPI::GameObject getFurniture() { return furniture; }
-        inline Furniture::FurnitureType* getFurnitureType() { return furnitureType; }
+        inline Furniture::FurnitureType* getFurnitureTypeInternal() { return furnitureType; }
 
         void changeFurniture(GameAPI::GameObject furniture, Graph::Node* node);
 
@@ -276,6 +276,9 @@ namespace Threading {
         virtual void forEachThreadActor(OStim::ThreadActorVisitor* visitor) override;
 
         virtual OStim::Node* getCurrentNode() override;
+
+        virtual OStim::FurnitureType* getFurnitureType() override;
+        virtual void* getFurnitureObject() override;
 #pragma endregion
     };
 

@@ -273,7 +273,7 @@ namespace Threading {
                 } else if (MCM::MCMTable::partialUndressing()) {
                     uint32_t slotMask = m_currentNode->getStrippingMask(position);
                     if (slotMask != 0) {
-                        actor.undressPartial(slotMask);
+                        actor.undressPartialInternal(slotMask);
                         if ((slotMask & MCM::MCMTable::removeWeaponsWithSlot()) != 0) {
                             actor.removeWeapons();
                         }
@@ -867,11 +867,11 @@ namespace Threading {
         } else if (tag == "OStimUndressPartial") {
             std::string payload = a_event->payload.c_str();
             int mask = std::stoi(payload, nullptr, 16);
-            GetActor(actor)->undressPartial(mask);
+            GetActor(actor)->undressPartialInternal(mask);
         } else if (tag == "OStimRedressPartial"){
             std::string payload = a_event->payload.c_str();
             int mask = std::stoi(payload, nullptr, 16);
-            GetActor(actor)->redressPartial(mask);
+            GetActor(actor)->redressPartialInternal(mask);
         } else if (tag == "OStimRemoveWeapons") {
             GetActor(actor)->removeWeapons();
         } else if (tag == "OStimAddWeapons") {
@@ -971,5 +971,13 @@ namespace Threading {
 
     OStim::Node* Thread::getCurrentNode() {
         return m_currentNode;
+    }
+
+    OStim::FurnitureType* Thread::getFurnitureType() {
+        return furnitureType;
+    }
+
+    void* Thread::getFurnitureObject() {
+        return furniture.toABIPointer();
     }
 }

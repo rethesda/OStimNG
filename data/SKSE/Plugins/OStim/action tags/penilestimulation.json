@@ -1,26 +1,36 @@
 {
 	"actor":{
 		"faction":{
-			"info": "OStimAnalStimulationActorFaction",
+			"info": "OStimPenileStimulationActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF23"
 		},
 		"statFaction":{
-			"info": "OStimAnalStimulationActorCounterFaction",
+			"info": "OStimPenileStimulationActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF25"
+		},
+		"playerStatFaction":{
+			"info": "OStimPenileStimulationWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFA4"
 		}
 	},
 	"target":{
 		"faction":{
-			"info": "OStimAnalStimulationTargetFaction",
+			"info": "OStimPenileStimulationTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF24"
 		},
 		"statFaction":{
-			"info": "OStimAnalStimulationTargetCounterFaction",
+			"info": "OStimPenileStimulationTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF26"
+		},
+		"playerStatFaction":{
+			"info": "OStimPenileStimulationWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFA5"
 		}
 	}
 }

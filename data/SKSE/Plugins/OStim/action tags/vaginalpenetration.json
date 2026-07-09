@@ -9,6 +9,11 @@
 			"info": "OStimVaginalPenetrationActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF33"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalPenetrationWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFA9"
 		}
 	},
 	"target":{
@@ -21,6 +26,11 @@
 			"info": "OStimVaginalPenetrationTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF34"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalPenetrationWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFAA"
 		}
 	}
 }

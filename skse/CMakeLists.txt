@@ -128,6 +128,7 @@ set(sources
 	src/PCH.h
 	src/Papyrus/Papyrus.cpp
 	src/Papyrus/Script.h
+    src/PluginInterfaceImplementation/Furniture/FurnitureInterfaceImpl.cpp
     src/PluginInterfaceImplementation/Settings/SettingInterfaceImpl.cpp
     src/PluginInterfaceImplementation/SexToys/SexToyInterfaceImpl.cpp
     src/PluginInterfaceImplementation/Threading/ThreadBuilderImpl.cpp

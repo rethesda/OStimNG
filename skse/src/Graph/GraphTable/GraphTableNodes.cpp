@@ -16,12 +16,12 @@ namespace Graph {
         std::unordered_map<int, std::vector<Node*>*>* innerMap;
         std::vector<Node*>* innerList;
         int count = node->actors.size();
-        auto iter = nodeList.find(node->furnitureType->getMasterType());
+        auto iter = nodeList.find(node->furnitureType->getMasterTypeInternal());
         if (iter != nodeList.end()) {
             innerMap = iter->second;
         } else {
             innerMap = new std::unordered_map<int, std::vector<Node*>*>();
-            nodeList.insert({node->furnitureType->getMasterType(), innerMap});
+            nodeList.insert({node->furnitureType->getMasterTypeInternal(), innerMap});
         }
 
         auto iter2 = innerMap->find(count);
@@ -173,7 +173,7 @@ namespace Graph {
     }
 
     bool GraphTable::hasNodes(Furniture::FurnitureType* furnitureType, int actorCount) {
-        furnitureType = furnitureType->getMasterType();
+        furnitureType = furnitureType->getMasterTypeInternal();
 
         auto iter = nodeList.find(furnitureType);
         if (iter == nodeList.end()) {
@@ -185,7 +185,7 @@ namespace Graph {
     }
 
     Node* GraphTable::getRandomNode(Furniture::FurnitureType* furnitureType, std::vector<Trait::ActorCondition> actorConditions, std::function<bool(Node*)> nodeCondition) {
-        Furniture::FurnitureType* masterType = furnitureType->getMasterType();
+        Furniture::FurnitureType* masterType = furnitureType->getMasterTypeInternal();
 
         auto iter = nodeList.find(masterType);
         if (iter == nodeList.end()) {

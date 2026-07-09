@@ -9,6 +9,17 @@
 			"info": "OStimAnyGrindingActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF66"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnyGindingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF9D"
+		}
+	},
+	"target":{
+		"playerStatFaction":{
+			"info": "OStimAnyGindingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF9E"
 		}
 	}
-}

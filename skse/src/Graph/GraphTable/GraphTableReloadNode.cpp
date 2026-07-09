@@ -58,7 +58,7 @@ namespace Graph {
         }
 
         // ── Remove from nodeList ────────────────────────────────────────────
-        auto furIt = nodeList.find(node->furnitureType->getMasterType());
+        auto furIt = nodeList.find(node->furnitureType->getMasterTypeInternal());
         if (furIt != nodeList.end()) {
             auto& innerMap = *furIt->second;
             int count = static_cast<int>(node->actors.size());
@@ -290,12 +290,12 @@ namespace Graph {
         {
             std::unordered_map<int, std::vector<Node*>*>* innerMap;
             int count = static_cast<int>(node->actors.size());
-            auto furIt2 = nodeList.find(node->furnitureType->getMasterType());
+            auto furIt2 = nodeList.find(node->furnitureType->getMasterTypeInternal());
             if (furIt2 != nodeList.end()) {
                 innerMap = furIt2->second;
             } else {
                 innerMap = new std::unordered_map<int, std::vector<Node*>*>();
-                nodeList.insert({node->furnitureType->getMasterType(), innerMap});
+                nodeList.insert({node->furnitureType->getMasterTypeInternal(), innerMap});
             }
             auto vecIt2 = innerMap->find(count);
             if (vecIt2 != innerMap->end()) {

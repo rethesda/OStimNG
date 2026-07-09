@@ -1,26 +1,36 @@
 {
 	"actor":{
 		"faction":{
-			"info": "OStimVaginalStimulationActorFaction",
+			"info": "OStimClitoralStimulationActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF1F"
 		},
 		"statFaction":{
-			"info": "OStimVaginalStimulationActorCounterFaction",
+			"info": "OStimClitoralStimulationActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF21"
+		},
+		"playerStatFaction":{
+			"info": "OStimClitoralStimulationWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF95"
 		}
 	},
 	"target":{
 		"faction":{
-			"info": "OStimVaginalStimulationTargetFaction",
+			"info": "OStimClitoralStimulationTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF20"
 		},
 		"statFaction":{
-			"info": "OStimVaginalStimulationTargetCounterFaction",
+			"info": "OStimClitoralStimulationTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF22"
+		},
+		"playerStatFaction":{
+			"info": "OStimClitoralStimulationWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF96"
 		}
 	}
 }

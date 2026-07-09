@@ -135,7 +135,7 @@ namespace UI::Scene {
 
             for (auto& nav : currentNode->navigations) {
                 if (nav.fulfilledBy(conditions) &&
-                    state->currentThread->getFurnitureType()->isChildOf(nav.nodes.back()->furnitureType)) {
+                    state->currentThread->getFurnitureTypeInternal()->isChildOf(nav.nodes.back()->furnitureType)) {
                     menuData.options.push_back({.nodeId = nav.nodes.front()->scene_id,
                                                 .title = nav.nodes.back()->scene_name,
                                                 .imagePath = nav.icon,

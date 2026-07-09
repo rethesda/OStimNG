@@ -36,12 +36,8 @@ namespace Threading {
 
         Alignment::ActorKey getAlignmentKey();
 
-        void undress();
-        void undressPartial(GameAPI::GameSlotMask mask);
-        void removeWeapons();
-        void redress();
-        void redressPartial(GameAPI::GameSlotMask mask);
-        void addWeapons();
+        void undressPartialInternal(GameAPI::GameSlotMask mask);
+        void redressPartialInternal(GameAPI::GameSlotMask mask);
 
         void changeNode(Graph::GraphActor* graphActor, std::vector<Trait::FacialExpression*>* nodeExpressions, std::vector<Trait::FacialExpression*>* overrideExpressions);
         void changeSpeed(int speed);
@@ -340,6 +336,12 @@ namespace Threading {
 #pragma region abi
     public:
         virtual void* getGameActor() override;
+        virtual void undress() override;
+        virtual void undressPartial(uint32_t slotmask) override;
+        virtual void removeWeapons() override;
+        virtual void redress() override;
+        virtual void redressPartial(uint32_t slotmask) override;
+        virtual void addWeapons() override;
 #pragma endregion
 	};	
 }

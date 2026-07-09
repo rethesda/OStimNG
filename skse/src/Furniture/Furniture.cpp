@@ -25,8 +25,8 @@ namespace Furniture {
             }
 
             if (sameFloor == 0.0 || std::fabs(centerPos.z - ref->GetPosition().z) <= sameFloor) {
-                FurnitureType* type = FurnitureTable::getFurnitureType(ref, true)->getListType();
-                if (type->id == "none" || !Graph::GraphTable::hasNodes(type->getMasterType(), actorCount)) {
+                FurnitureType* type = FurnitureTable::getFurnitureType(ref, true)->getListTypeInternal();
+                if (type->id == "none" || !Graph::GraphTable::hasNodes(type->getMasterTypeInternal(), actorCount)) {
                     return RE::BSContainer::ForEachResult::kContinue;
                 }
 

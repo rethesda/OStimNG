@@ -9,6 +9,11 @@
 			"info": "OStimAnalStimulationActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF19"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalStimulationWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF91"
 		}
 	},
 	"target":{
@@ -21,6 +26,11 @@
 			"info": "OStimAnalStimulationTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF20"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalStimulationWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF92"
 		}
 	}
 }

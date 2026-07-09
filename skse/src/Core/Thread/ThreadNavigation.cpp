@@ -32,7 +32,7 @@ namespace Threading {
     }
 
     void addFurniture2(std::vector<std::function<bool(Graph::Node*)>>& conditions, Furniture::FurnitureType* furnitureType) {
-        std::string furnitureTypeID = furnitureType->getListType()->id;
+        std::string furnitureTypeID = furnitureType->getListTypeInternal()->id;
         if (furnitureTypeID == "none") {
             conditions.push_back([&](Graph::Node* node) {
                 return forAnyActor2(node, [&](Graph::GraphActor& actor) {
