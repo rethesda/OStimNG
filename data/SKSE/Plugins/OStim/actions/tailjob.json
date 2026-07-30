@@ -22,6 +22,11 @@
 			"info": "OStimTailjobActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF80"
+		},
+		"playerStatFaction":{
+			"info": "OStimTailjobWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF6"
 		}
 	},
 	"target":{
@@ -51,6 +56,11 @@
 			"info": "OStimTailjobTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF81"
+		},
+		"playerStatFaction":{
+			"info": "OStimTailjobWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF7"
 		}
 	},
 	"performer":{

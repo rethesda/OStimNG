@@ -25,9 +25,19 @@
 			55
 		],
 		"faction":{
-			"info": "OStimLickingTesticlesActorFaction",
+			"info": "OStimTesticularLickingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xE7B"
+		},
+		"statFaction":{
+			"info": "OStimTesticularLickingActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF8"
+		},
+		"playerStatFaction":{
+			"info": "OStimTesticularLickingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFFA"
 		}
 	},
 	"target":{
@@ -47,9 +57,19 @@
 			54
 		],
 		"faction":{
-			"info": "OStimLickingTesticlesTargetFaction",
+			"info": "OStimTesticularLickingTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xE7C"
+		},
+		"statFaction":{
+			"info": "OStimTesticularLickingTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF9"
+		},
+		"playerStatFaction":{
+			"info": "OStimTesticularLickingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFFB"
 		},
 		"toySlot": "scrotum"
 	},

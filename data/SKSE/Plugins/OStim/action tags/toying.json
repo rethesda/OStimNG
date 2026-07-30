@@ -14,6 +14,16 @@
 			"info": "OStimAnyToyingWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA7"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimAnyToyingActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x854"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimAnyToyingWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x856"
 		}
 	},
 	"target":{
@@ -31,6 +41,16 @@
 			"info": "OStimAnyToyingWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA8"
+		},
+		"climaxStatFaction":{
+			"info": "OStimAnyToyingTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x853"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimAnyToyingWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x855"
 		}
 	}
 }

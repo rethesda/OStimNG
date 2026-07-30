@@ -28,6 +28,11 @@
 			"info": "OStimClitoralEatingActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF49"
+		},
+		"playerStatFaction":{
+			"info": "OStimClitoralEatingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFD8"
 		}
 	},
 	"target":{
@@ -55,6 +60,11 @@
 			"info": "OStimClitoralEatingTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF4A"
+		},
+		"playerStatFaction":{
+			"info": "OStimClitoralEatingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFD9"
 		},
 		"toySlot": "genital"
 	},

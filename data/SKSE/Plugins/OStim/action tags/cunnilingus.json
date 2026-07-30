@@ -14,6 +14,16 @@
 			"info": "OStimCunnilingusWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF97"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimCunnilingusActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x82E"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimCunnilingusWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x830"
 		}
 	},
 	"target":{
@@ -31,6 +41,16 @@
 			"info": "OStimCunnilingusWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF97"
+		},
+		"climaxStatFaction":{
+			"info": "OStimCunnilingusTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x82D"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimCunnilingusWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x82F"
 		}
 	},
 	"performer":{

@@ -1,0 +1,56 @@
+{
+	"actor":{
+		"faction":{
+			"info": "OStimCumshotActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC0"
+		},
+		"statFaction":{
+			"info": "OStimCumshotActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC2"
+		},
+		"playerStatFaction":{
+			"info": "OStimCumshotWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC4"
+		},
+		"climaxStatFaction":{
+			"info": "OStimCumshotActorClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x829"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimCumshotWithPlayerActorClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x82B"
+		}
+	},
+	"target":{
+		"faction":{
+			"info": "OStimCumshotTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC1"
+		},
+		"statFaction":{
+			"info": "OStimCumshotTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC3"
+		},
+		"playerStatFaction":{
+			"info": "OStimCumshotWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC5"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimCumshotTargetPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x82A"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimCumshotWithPlayerTargetPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x82C"
+		}
+	}
+}

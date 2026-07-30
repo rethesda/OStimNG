@@ -31,6 +31,11 @@
 			"mod": "OStim.esp",
 			"formid": "0xF6D"
 		},
+		"playerStatFaction":{
+			"info": "OStimPenileLickingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF0"
+		},
 		"stringLists":{
 			"cum":[
 				"mouth"
@@ -61,6 +66,11 @@
 			"info": "OStimPenileLickingTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF6E"
+		},
+		"playerStatFaction":{
+			"info": "OStimPenileLickingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF1"
 		},
 		"toySlot": "genital"
 	},

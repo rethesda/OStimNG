@@ -28,6 +28,11 @@
 			"mod": "OStim.esp",
 			"formid": "0xF14"
 		},
+		"playerStatFaction":{
+			"info": "OStimVaginalSexWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x809"
+		},
 		"toySlot": "genital"
 	},
 	"target":{
@@ -55,6 +60,11 @@
 			"info": "OStimAnalSexTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF15"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalSexWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x80A"
 		},
 		"stringLists":{
 			"cum":[

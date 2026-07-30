@@ -18,6 +18,11 @@
 			"info": "OStimAnalTailSexActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF84"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalTailSexWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFCE"
 		}
 	},
 	"target":{
@@ -47,6 +52,11 @@
 			"info": "OStimAnalTailSexTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF85"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalTailSexWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFCF"
 		}
 	},
 	"performer":{

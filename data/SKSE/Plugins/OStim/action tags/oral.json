@@ -14,6 +14,16 @@
 			"info": "OStimAnyOralWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA2"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimAnyOralActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x848"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimAnyOralWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x84A"
 		}
 	},
 	"target":{
@@ -23,7 +33,7 @@
 			"formid": "0xEA8"
 		},
 		"statFaction":{
-			"info": "OStimAnyoralTargetCounterFaction",
+			"info": "OStimAnyOralTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF3A"
 		},
@@ -31,6 +41,16 @@
 			"info": "OStimAnyOralWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA3"
+		},
+		"climaxStatFaction":{
+			"info": "OStimAnyOralTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x847"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimAnyOralWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x849"
 		}
 	}
 }

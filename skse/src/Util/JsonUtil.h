@@ -1,5 +1,7 @@
 #pragma once
 
+#include "GameAPI/GameFaction.h"
+
 namespace JsonUtil {
     void loadString(json& json, std::string& value, std::string propertyName, std::string& objectName, std::string objectType, bool warnIfNotExists);
     void loadLowerString(json& json, std::string& value, std::string propertyName, std::string& objectName, std::string objectType, bool warnIfNotExists);
@@ -36,7 +38,6 @@ namespace JsonUtil {
     void consumeIntMap(json& json, std::function<void(std::string, int)> consumer, bool lowerKeys, std::string propertyName, std::string& objectName, std::string objectType, bool warnIfNotExists);
     void consumeBoolMap(json& json, std::function<void(std::string, bool)> consumer, bool lowerKeys, std::string propertyName, std::string& objectName, std::string objectType, bool warnIfNotExists);
 
-
 	template <class T>
 	void loadGameRecord(json& json, T& value, std::string propertyName, std::string& objectName, std::string objectType, std::string& filepath, bool warnIfNotExists) {
         if (json.contains(propertyName)) {
@@ -49,6 +50,27 @@ namespace JsonUtil {
             logger::warn("{} doesn't have property '{}' defined", objectName, propertyName);
         }
 	}
+
+    template <class T>
+    void loadGameRecordList(json& json, std::string path, std::string key, std::vector<T>& records) {
+        if (json.contains(key)) {
+            if (json[key].is_array()) {
+                for (auto& jsonFaction : json[key]) {
+                    T record;
+                    record.loadJson(path, jsonFaction);
+                    if (record) {
+                        records.push_back(record);
+                    }
+                }
+            } else {
+                T record;
+                record.loadJson(path, json[key]);
+                if (record) {
+                    records.push_back(record);
+                }
+            }
+        }
+    }
 
 	template <class T>
 	T* getForm(std::string path, json json, RE::TESDataHandler* handler) {

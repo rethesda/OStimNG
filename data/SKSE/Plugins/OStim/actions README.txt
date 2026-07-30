@@ -49,6 +49,21 @@ actor fields:
 	every faction will only be incremented once per scene, no matter how many times the action was executed
 	will stop incrementing at rank 101, since faction ranks are capped at 127
 	note: keep in mind that GetFactionRank will return -2 if the actor is not in the faction, which will be the case if they never participated in the action
+"climaxStatFaction" (object/list<object>): a faction or list of factions which rank is incremented whenever the actor climaxes in this role in this action (see form fields)
+	will stop incrementing at rank 101, since faction ranks are capped at 127
+	note: keep in mind that GetFactionRank will return -2 if the actor is not in the faction, which will be the case if they never participated in the action
+"partnerClimaxStatFaction" (object/list<object>): a faction or list of factions which rank is incremented whenever the actors partner climaxes in this role in this action (see form fields)
+	will stop incrementing at rank 101, since faction ranks are capped at 127
+	note: keep in mind that GetFactionRank will return -2 if the actor is not in the faction, which will be the case if they never participated in the action
+"playerClimaxStatFaction" (object/list<object>): a faction or list of factions which rank is incremented whenever the actor climaxes while the player is the partner in this role in this action (see form fields)
+	will stop incrementing at rank 101, since faction ranks are capped at 127
+	note: keep in mind that GetFactionRank will return -2 if the actor is not in the faction, which will be the case if they never participated in the action
+"playerPartnerClimaxStatFaction" (object/list<object>): a faction or list of factions which rank is incremented whenever the player climaxes as the actors partner in this role in this action (see form fields)
+	will stop incrementing at rank 101, since faction ranks are capped at 127
+	note: keep in mind that GetFactionRank will return -2 if the actor is not in the faction, which will be the case if they never participated in the action
+"playerStatList" (object/list<object>): a formlist or list of formlists which that contains all actors which have participated in this action with the player as partner at least once (see form fields)
+"playerClimaxStatList" (object/list<object>): a formlist or list of formlists which that contains all actors which have climaxed in this action with the player as partner at least once (see form fields)
+"playerPartnerClimaxStatList" (object/list<object>): a formlist or list of formlists which that contains all actors which have made the player climax in this action at least once (see form fields)
 "ints" (map<string, int>): A map of custom ints that can be used by addons
 "intLists" (map<string, list<int>>): a map of custom int lists that can be used by addons
 "floats" (map<string, float>): a map of custom floats that can be used by addons

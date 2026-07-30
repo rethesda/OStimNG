@@ -28,6 +28,11 @@
 			"mod": "OStim.esp",
 			"formid": "0xF50"
 		},
+		"playerStatFaction":{
+			"info": "OStimDeepthroatingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFDE"
+		},
 		"stringLists":{
 			"cum":[
 				"throat"
@@ -59,6 +64,11 @@
 			"info": "OStimBlowjobTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF51"
+		},
+		"playerStatFaction":{
+			"info": "OStimDeepthroatingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFDF"
 		},
 		"toySlot": "genital"
 	},

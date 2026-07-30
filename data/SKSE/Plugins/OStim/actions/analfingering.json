@@ -24,6 +24,11 @@
 			"info": "OStimAnalFingeringActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF03"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalFingeringWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC6"
 		}
 	},
 	"target":{
@@ -51,6 +56,11 @@
 			"info": "OStimAnalFingeringTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF04"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalFingeringWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC7"
 		},
 		"toySlot": "anus"
 	},

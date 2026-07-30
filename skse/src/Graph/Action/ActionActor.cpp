@@ -49,6 +49,49 @@ namespace Graph {
                 }
             }
 
+            for (GameAPI::GameFaction faction : other.climaxStatFactions) {
+                if (!VectorUtil::contains(climaxStatFactions, faction)) {
+                    climaxStatFactions.push_back(faction);
+                }
+            }
+
+            for (GameAPI::GameFaction faction : other.partnerClimaxStatFactions) {
+                if (!VectorUtil::contains(partnerClimaxStatFactions, faction)) {
+                    partnerClimaxStatFactions.push_back(faction);
+                }
+            }
+
+            for (GameAPI::GameFaction faction : other.playerClimaxStatFactions) {
+                if (!VectorUtil::contains(playerClimaxStatFactions, faction)) {
+                    playerClimaxStatFactions.push_back(faction);
+                }
+            }
+
+            for (GameAPI::GameFaction faction : other.playerPartnerClimaxStatFactions) {
+                if (!VectorUtil::contains(playerPartnerClimaxStatFactions, faction)) {
+                    playerPartnerClimaxStatFactions.push_back(faction);
+                }
+            }
+
+            for (GameAPI::GameList list : other.playerStatLists) {
+                if (!VectorUtil::contains(playerStatLists, list)) {
+                    playerStatLists.push_back(list);
+                }
+            }
+
+            for (GameAPI::GameList list : other.playerClimaxStatLists) {
+                if (!VectorUtil::contains(playerClimaxStatLists, list)) {
+                    playerClimaxStatLists.push_back(list);
+                }
+            }
+
+            for (GameAPI::GameList list : other.playerPartnerClimaxStatLists) {
+                if (!VectorUtil::contains(playerPartnerClimaxStatLists, list)) {
+                    playerPartnerClimaxStatLists.push_back(list);
+                }
+            }
+
+
             for (std::string& slot : other.toySlots) {
                 if (!VectorUtil::contains(toySlots, slot)) {
                     toySlots.push_back(slot);

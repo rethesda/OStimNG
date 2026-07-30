@@ -29,6 +29,13 @@ namespace Graph {
         std::set<std::string> equipObjects;
         std::vector<GameAPI::GameFaction> factions;
         std::vector<GameAPI::GameFaction> statFactions;
+        std::vector<GameAPI::GameFaction> climaxStatFactions;
+        std::vector<GameAPI::GameFaction> partnerClimaxStatFactions;
+        std::vector<GameAPI::GameFaction> playerClimaxStatFactions;
+        std::vector<GameAPI::GameFaction> playerPartnerClimaxStatFactions;
+        std::vector<GameAPI::GameList> playerStatLists;
+        std::vector<GameAPI::GameList> playerClimaxStatLists;
+        std::vector<GameAPI::GameList> playerPartnerClimaxStatLists;
         std::unordered_map<int, Trait::FaceModifier> eyeballModifierOverride;
         std::vector<GraphActorTag> tags;
         Trait::ActorCondition condition;

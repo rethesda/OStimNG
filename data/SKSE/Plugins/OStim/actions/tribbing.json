@@ -25,6 +25,11 @@
 			"mod": "OStim.esp",
 			"formid": "0xF16"
 		},
+		"playerStatFaction":{
+			"info": "OStimTribbingWithPlayerMateCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFFE"
+		},
 		"toySlot": "genital"
 	},
 	"target":{
@@ -51,6 +56,11 @@
 			"info": "OStimTribbingMateCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF16"
+		},
+		"playerStatFaction":{
+			"info": "OStimTribbingWithPlayerMateCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFFE"
 		},
 		"toySlot": "genital"
 	},

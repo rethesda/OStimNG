@@ -31,6 +31,11 @@
 			"info": "OStimRimjobActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF41"
+		},
+		"playerStatFaction":{
+			"info": "OStimRimjobWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF2"
 		}
 	},
 	"target":{
@@ -58,6 +63,11 @@
 			"info": "OStimRimjobTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF42"
+		},
+		"playerStatFaction":{
+			"info": "OStimRimjobWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFF3"
 		},
 		"toySlot": "anus"
 	},

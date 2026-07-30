@@ -17,6 +17,11 @@
 			"info": "OStimVaginalToyingActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF37"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalToyingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x80D"
 		}
 	},
 	"target":{
@@ -44,6 +49,11 @@
 			"info": "OStimVaginalToyingTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF38"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalToyingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x80E"
 		},
 		"toySlot": "genital"
 	},

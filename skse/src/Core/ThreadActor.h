@@ -6,6 +6,7 @@
 
 #include "Alignment/ActorKey.h"
 #include "GameAPI/GameActor.h"
+#include "GameAPI/GameList.h"
 #include "Graph/Event.h"
 #include "Graph/Node.h"
 #include "PluginInterface/Threading/ThreadActor.h"
@@ -171,8 +172,11 @@ namespace Threading {
         void changeNodeAPIPre();
         void changeNodeAPIPost();
         void freeAPI();
+        void climaxAPI();
 
         void incrementStatFaction(GameAPI::GameFaction faction);
+        void incrementFaction(GameAPI::GameFaction faction);
+        void addToStatList(GameAPI::GameList faction);
 #pragma endregion
 
 #pragma region climax

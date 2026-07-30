@@ -18,6 +18,11 @@
 			"info": "OStimVaginalTailSexActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF88"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalTailSexWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x80B"
 		}
 	},
 	"target":{
@@ -46,6 +51,11 @@
 			"info": "OStimVaginalTailSexTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF89"
+		},
+		"playerStatFaction":{
+			"info": "OStimVaginalTailSexWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x80C"
 		}
 	},
 	"performer":{

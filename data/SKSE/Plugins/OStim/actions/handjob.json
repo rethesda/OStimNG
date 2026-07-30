@@ -25,6 +25,11 @@
 			"info": "OStimHandjobActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF63"
+		},
+		"playerStatFaction":{
+			"info": "OStimHandjobWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFEA"
 		}
 	},
 	"target":{
@@ -52,6 +57,11 @@
 			"info": "OStimHandjobActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF64"
+		},
+		"playerStatFaction":{
+			"info": "OStimHandjobWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFEB"
 		},
 		"toySlot": "genital"
 	},

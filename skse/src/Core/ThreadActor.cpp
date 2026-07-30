@@ -49,6 +49,8 @@ namespace Threading {
         Util::APITable::getTimesClimaxedFaction().add(actor);
         Util::APITable::getTimeUntilClimaxFaction().add(actor, -1);
 
+        addToStatList(Util::APITable::getActorList());
+
         if (MCM::MCMTable::removeWeaponsAtStart()) {
             removeWeapons();
         }

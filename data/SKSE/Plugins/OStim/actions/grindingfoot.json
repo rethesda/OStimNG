@@ -28,6 +28,11 @@
 			"mod": "OStim.esp",
 			"formid": "0xF5C"
 		},
+		"playerStatFaction":{
+			"info": "OStimGrindingFootWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFE3"
+		},
 		"toySlot": "genital"
 	},
 	"target":{
@@ -43,6 +48,16 @@
 			"info": "OStimGrindingFootTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xEFC"
+		},
+		"statFaction":{
+			"info": "OStimGrindingFootTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFE2"
+		},
+		"playerStatFaction":{
+			"info": "OStimGrindingFootWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFE4"
 		}
 	},
 	"performer":{

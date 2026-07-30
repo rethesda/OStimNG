@@ -11,30 +11,21 @@
 		"strippingSlots":[
 			33
 		],
-		"faction":[
-			{
-				"info": "OStimAnalFistingActorFaction",
-				"mod": "OStim.esp",
-				"formid": "0xE4D"
-			},
-			{
-				"info": "OStimAnyFistingActorFaction",
-				"mod": "OStim.esp",
-				"formid": "0xF09"
-			}
-		],
-		"statFaction":[
-			{
-				"info": "OStimAnalFistingActorCounterFaction",
-				"mod": "OStim.esp",
-				"formid": "0xF0B"
-			},
-			{
-				"info": "OStimAnyFistingActorCounterFaction",
-				"mod": "OStim.esp",
-				"formid": "0xF0D"
-			}
-		]
+		"faction":{
+			"info": "OStimAnalFistingActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0xE4D"
+		},
+		"statFaction":{
+			"info": "OStimAnalFistingActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF0B"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalFistingWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC8"
+		}
 	},
 	"target":{
 		"info": "the one with the butt",
@@ -52,30 +43,21 @@
 			53,
 			54
 		],
-		"faction":[
-			{
-				"info": "OStimAnalFistingTargetFaction",
-				"mod": "OStim.esp",
-				"formid": "0xE4E"
-			},
-			{
-				"info": "OStimAnyFistingTargetFaction",
-				"mod": "OStim.esp",
-				"formid": "0xF0A"
-			}
-		],
-		"statFaction":[
-			{
-				"info": "OStimAnalFistingTargetCounterFaction",
-				"mod": "OStim.esp",
-				"formid": "0xF0C"
-			},
-			{
-				"info": "OStimAnyFistingTargetCounterFaction",
-				"mod": "OStim.esp",
-				"formid": "0xF0E"
-			}
-		],
+		"faction":{
+			"info": "OStimAnalFistingTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0xE4E"
+		},
+		"statFaction":{
+			"info": "OStimAnalFistingTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xF0C"
+		},
+		"playerStatFaction":{
+			"info": "OStimAnalFistingWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0xFC89"
+		},
 		"toySlot": "anus"
 	},
 	"performer":{

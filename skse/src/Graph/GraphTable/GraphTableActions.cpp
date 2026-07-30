@@ -31,59 +31,16 @@ namespace Graph {
 
         JsonUtil::consumeLowerStringList(json, [&actor](std::string equipObject) { actor.equipObjects.insert(equipObject); }, "equipObject", filename, "action", false);
 
-        if (json.contains("faction")) {
-            if (json["faction"].is_array()) {
-                for (auto& jsonFaction : json["faction"]) {
-                    GameAPI::GameFaction faction;
-                    faction.loadJson(path, jsonFaction);
-                    if (faction) {
-                        actor.factions.push_back(faction);
-                    }
-                }
-            } else {
-                GameAPI::GameFaction faction;
-                faction.loadJson(path, json["faction"]);
-                if (faction) {
-                    actor.factions.push_back(faction);
-                }
-            }
-        }
-
-        if (json.contains("statFaction")) {
-            if (json["statFaction"].is_array()) {
-                for (auto& jsonFaction : json["statFaction"]) {
-                    GameAPI::GameFaction faction;
-                    faction.loadJson(path, jsonFaction);
-                    if (faction) {
-                        actor.statFactions.push_back(faction);
-                    }
-                }
-            } else {
-                GameAPI::GameFaction faction;
-                faction.loadJson(path, json["statFaction"]);
-                if (faction) {
-                    actor.statFactions.push_back(faction);
-                }
-            }
-        }
-
-        if (json.contains("playerStatFaction")) {
-            if (json["playerStatFaction"].is_array()) {
-                for (auto& jsonFaction : json["playerStatFaction"]) {
-                    GameAPI::GameFaction faction;
-                    faction.loadJson(path, jsonFaction);
-                    if (faction) {
-                        actor.playerStatFactions.push_back(faction);
-                    }
-                }
-            } else {
-                GameAPI::GameFaction faction;
-                faction.loadJson(path, json["playerStatFaction"]);
-                if (faction) {
-                    actor.playerStatFactions.push_back(faction);
-                }
-            }
-        }
+        JsonUtil::loadGameRecordList(json, path, "faction", actor.factions);
+        JsonUtil::loadGameRecordList(json, path, "statFaction", actor.statFactions);
+        JsonUtil::loadGameRecordList(json, path, "playerStatFaction", actor.playerStatFactions);
+        JsonUtil::loadGameRecordList(json, path, "climaxStatFaction", actor.climaxStatFactions);
+        JsonUtil::loadGameRecordList(json, path, "partnerClimaxStatFaction", actor.partnerClimaxStatFactions);
+        JsonUtil::loadGameRecordList(json, path, "playerClimaxStatFaction", actor.playerClimaxStatFactions);
+        JsonUtil::loadGameRecordList(json, path, "playerPartnerClimaxStatFaction", actor.playerPartnerClimaxStatFactions);
+        JsonUtil::loadGameRecordList(json, path, "playerStatList", actor.playerStatLists);
+        JsonUtil::loadGameRecordList(json, path, "playerClimaxStatList", actor.playerClimaxStatLists);
+        JsonUtil::loadGameRecordList(json, path, "playerPartnerClimaxStatList", actor.playerPartnerClimaxStatLists);
 
         if (json.contains("ints")) {
             for (auto& [key, val] : json["ints"].items()) {
