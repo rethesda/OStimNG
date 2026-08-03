@@ -24,6 +24,16 @@
 			"info": "OStimFellatioWithPlayerActorPartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x834"
+		},
+		"playerStatList":{
+			"info": "OStimFellatioWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x87C"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimFellatioWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x87D"
 		}
 	},
 	"target":{
@@ -51,6 +61,16 @@
 			"info": "OStimFellatioWithPlayerTargetClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x833"
+		},
+		"playerStatList":{
+			"info": "OStimFellatioWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x87E"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimFellatioWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x87F"
 		}
 	},
 	"performer":{

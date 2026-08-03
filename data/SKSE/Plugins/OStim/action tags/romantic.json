@@ -14,6 +14,11 @@
 			"info": "OStimRomanticWithPlayerMateCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFB9"
+		},
+		"playerStatList":{
+			"info": "OStimRomanticWithPlayerMateList",
+			"mod": "OStim.esp",
+			"formid": "0x89A"
 		}
 	},
 	"target":{
@@ -31,6 +36,11 @@
 			"info": "OStimRomanticWithPlayerMateCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFB9"
+		},
+		"playerStatList":{
+			"info": "OStimRomanticWithPlayerMateList",
+			"mod": "OStim.esp",
+			"formid": "0x89A"
 		}
 	}
 }

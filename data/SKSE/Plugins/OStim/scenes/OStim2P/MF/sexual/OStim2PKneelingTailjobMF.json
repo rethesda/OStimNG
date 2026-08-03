@@ -5,7 +5,19 @@
 	"speeds":[
 		{
 			"animation": "OStim2PKneelingTailjobMF_S1",
-			"displaySpeed": 1
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "OStim2PKneelingTailjobMF_S2",
+			"displaySpeed": 1.5
+		},
+		{
+			"animation": "OStim2PKneelingTailjobMF_S3",
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "OStim2PKneelingTailjobMF_S4",
+			"displaySpeed": 2.5
 		}
 	],
 	"navigations":[
@@ -22,6 +34,7 @@
 			"sosBend": 0,
 			"scale": 1.03,
       		"lookUp": -25,
+      		"singleSpeed": true,
 			"tags": [
 				"lyingback",
 				"onbottom"

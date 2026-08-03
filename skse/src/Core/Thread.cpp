@@ -506,7 +506,11 @@ namespace Threading {
         for (auto& actorIt : m_actors) {
             if (m_currentNode) {
                 if (m_currentNode->speeds.size() > speed) {
-                    actorIt.second.playAnimation(m_currentNode->speeds[speed]);
+                    if (actorIt.second.getGraphActor()->singleSpeed) {
+                        actorIt.second.playAnimation(m_currentNode->speeds[0]);
+                    } else {
+                        actorIt.second.playAnimation(m_currentNode->speeds[speed]);
+                    }
 
                     // this fixes some face bugs
                     // TODO how to do this with GraphActor?

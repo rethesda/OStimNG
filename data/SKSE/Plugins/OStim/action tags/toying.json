@@ -24,6 +24,16 @@
 			"info": "OStimAnyToyingWithPlayerActorPartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x856"
+		},
+		"playerStatList":{
+			"info": "OStimPenileStimulationWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x8A1"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimPenileStimulationWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x8A2"
 		}
 	},
 	"target":{
@@ -51,6 +61,16 @@
 			"info": "OStimAnyToyingWithPlayerTargetClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x855"
+		},
+		"playerStatList":{
+			"info": "OStimAnyToyingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x8A3"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimAnyToyingWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x8A4"
 		}
 	}
 }

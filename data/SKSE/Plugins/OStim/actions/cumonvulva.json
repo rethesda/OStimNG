@@ -11,7 +11,12 @@
 			52,
 			53,
 			54
-		]
+		],
+		"faction":{
+			"info": "OStimCumOnVulvaActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0x866"
+		}
 	},
 	"target":{
 		"info": "the one with the vulva",
@@ -26,6 +31,11 @@
 			53,
 			54
 		],
+		"faction":{
+			"info": "OStimCumOnVulvaTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0x867"
+		},
 		"stringLists":{
 			"cum":[
 				"belly",

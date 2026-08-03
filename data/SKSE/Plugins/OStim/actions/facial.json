@@ -14,7 +14,12 @@
 			52,
 			53,
 			54
-		]
+		],
+		"faction":{
+			"info": "OStimFacialActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0x860"
+		}
 	},
 	"target":{
 		"info": "the one with the face",
@@ -24,6 +29,11 @@
 			44,
 			55
 		],
+		"faction":{
+			"info": "OStimFacialTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0x861"
+		},
 		"stringLists":{
 			"cum":[
 				"face",

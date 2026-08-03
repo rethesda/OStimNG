@@ -24,6 +24,16 @@
 			"info": "OStimAnilingusWithPlayerActorPartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x824"
+		},
+		"playerStatList":{
+			"info": "OStimAnilingusWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x870"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimAnilingusWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x871"
 		}
 	},
 	"target":{
@@ -51,6 +61,16 @@
 			"info": "OStimAnilingusWithPlayerTargetClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x823"
+		},
+		"playerStatList":{
+			"info": "OStimAnilingusWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x872"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimAnilingusWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x873"
 		}
 	},
 	"performer":{

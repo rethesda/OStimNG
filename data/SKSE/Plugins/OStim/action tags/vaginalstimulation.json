@@ -24,6 +24,16 @@
 			"info": "OStimVaginalStimulationWithPlayerActorPartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x85E"
+		},
+		"playerStatList":{
+			"info": "OStimVaginalStimulationWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x8A9"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimVaginalStimulationWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x8AA"
 		}
 	},
 	"target":{
@@ -51,6 +61,16 @@
 			"info": "OStimVaginalStimulationWithPlayerTargetClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x85D"
+		},
+		"playerStatList":{
+			"info": "OStimVaginalStimulationWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x8AB"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimVaginalStimulationWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x8AC"
 		}
 	}
 }

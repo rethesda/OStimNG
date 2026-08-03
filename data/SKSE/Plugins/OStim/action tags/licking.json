@@ -24,6 +24,16 @@
 			"info": "OStimAnyLickingWithPlayerActorPartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x846"
+		},
+		"playerStatList":{
+			"info": "OStimAnyLickingWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x88E"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimAnyLickingWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x88F"
 		}
 	},
 	"target":{
@@ -51,6 +61,16 @@
 			"info": "OStimAnyLickingWithPlayerTargetClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x845"
+		},
+		"playerStatList":{
+			"info": "OStimAnyLickingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x890"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimAnyLickingWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x891"
 		}
 	}
 }

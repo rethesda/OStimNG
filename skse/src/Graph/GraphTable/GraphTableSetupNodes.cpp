@@ -323,7 +323,8 @@ namespace Graph {
                             JsonUtil::loadString(jsonActor, actor.expressionOverride, "expressionOverride", node->scene_id, objectType, false);
                             JsonUtil::loadInt(jsonActor, actor.expressionAction, "expressionAction", node->scene_id, objectType, false);
                             actor.animationIndex = index;
-                            JsonUtil::loadInt(jsonActor, actor.animationIndex, "animationIndex", node->scene_id, objectType, false);                            
+                            JsonUtil::loadInt(jsonActor, actor.animationIndex, "animationIndex", node->scene_id, objectType, false);
+                            JsonUtil::loadBool(jsonActor, actor.singleSpeed, "singleSpeed", node->scene_id, objectType, false);
                             JsonUtil::loadBool(jsonActor, actor.noStrip, "noStrip", node->scene_id, objectType, false);
 
                             // TODO: this is too skyrim specific

@@ -34,6 +34,21 @@
 			"info": "OStimIntercourseWithPlayerMatePartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x842"
+		},
+		"playerStatList":{
+			"info": "OStimIntercourseWithPlayerMateList",
+			"mod": "OStim.esp",
+			"formid": "0x88B"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimIntercourseWithPlayerMateClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x88C"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimIntercourseWithPlayerMatePartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x88D"
 		}
 	},
 	"target":{
@@ -71,6 +86,21 @@
 			"info": "OStimIntercourseWithPlayerMatePartnerClimaxCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x842"
+		},
+		"playerStatList":{
+			"info": "OStimIntercourseWithPlayerMateList",
+			"mod": "OStim.esp",
+			"formid": "0x88B"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimIntercourseWithPlayerMateClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x88C"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimIntercourseWithPlayerMatePartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x88D"
 		}
 	}
 }

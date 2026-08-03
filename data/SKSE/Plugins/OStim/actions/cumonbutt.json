@@ -11,7 +11,12 @@
 			52,
 			53,
 			54
-		]
+		],
+		"faction":{
+			"info": "OStimCumOnButtActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0x862"
+		}
 	},
 	"target":{
 		"info": "the one with the butt",
@@ -23,6 +28,11 @@
 			53,
 			54
 		],
+		"faction":{
+			"info": "OStimCumOnButtTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0x863"
+		},
 		"stringLists":{
 			"cum":[
 				"back",

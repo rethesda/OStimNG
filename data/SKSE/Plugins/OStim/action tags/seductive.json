@@ -14,6 +14,11 @@
 			"info": "OStimSeductiveWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFBE"
+		},
+		"playerStatList":{
+			"info": "OStimSeductiveWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x89B"
 		}
 	},
 	"target":{
@@ -31,6 +36,11 @@
 			"info": "OStimSeductiveWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFBF"
+		},
+		"playerStatList":{
+			"info": "OStimSeductiveWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x89C"
 		}
 	}
 }

@@ -11,7 +11,12 @@
 			52,
 			53,
 			54
-		]
+		],
+		"faction":{
+			"info": "OStimCumOnChestActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0x864"
+		}
 	},
 	"target":{
 		"info": "the one with the chest",
@@ -21,6 +26,11 @@
 			46,
 			56
 		],
+		"faction":{
+			"info": "OStimCumOnChestTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0x865"
+		},
 		"stringLists":{
 			"cum":[
 				"chest",
