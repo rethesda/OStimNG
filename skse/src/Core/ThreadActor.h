@@ -167,7 +167,7 @@ namespace Threading {
 
 #pragma region api
     private:
-        std::set<GameAPI::GameFaction> statFactions;
+        std::set<GameAPI::GameRecordIdentifier> statFactions;
 
         void changeNodeAPIPre();
         void changeNodeAPIPost();

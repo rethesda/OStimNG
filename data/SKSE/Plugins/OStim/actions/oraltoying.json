@@ -19,6 +19,11 @@
 			"info": "OStimOralToyingWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFEE"
+		},
+		"playerStatList":{
+			"info": "OStimOralToyingWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x8B3"
 		}
 	},
 	"target":{
@@ -50,6 +55,11 @@
 			"info": "OStimOralToyingWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFEF"
+		},
+		"playerStatList":{
+			"info": "OStimOralToyingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x8B4"
 		}
 	},
 	"performer":{

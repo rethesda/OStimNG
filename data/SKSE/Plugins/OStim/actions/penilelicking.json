@@ -36,6 +36,26 @@
 			"mod": "OStim.esp",
 			"formid": "0xFF0"
 		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimPenileLickingActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x986"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimPenileLickingWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x987"
+		},
+		"playerStatList":{
+			"info": "OStimPenileLickingWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x98A"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimPenileLickingWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x98B"
+		},
 		"stringLists":{
 			"cum":[
 				"mouth"
@@ -71,6 +91,26 @@
 			"info": "OStimPenileLickingWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFF1"
+		},
+		"climaxStatFaction":{
+			"info": "OStimPenileLickingTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x988"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimPenileLickingWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x989"
+		},
+		"playerStatList":{
+			"info": "OStimPenileLickingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x98C"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimPenileLickingWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x98D"
 		},
 		"toySlot": "genital"
 	},

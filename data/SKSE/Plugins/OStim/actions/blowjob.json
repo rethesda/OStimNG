@@ -39,6 +39,26 @@
 			"mod": "OStim.esp",
 			"formid": "0xFD2"
 		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimBlowjobActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x936"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimBlowjobWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x937"
+		},
+		"playerStatList":{
+			"info": "OStimBlowjobWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x93A"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimBlowjobWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x93B"
+		},
 		"stringLists":{
 			"cum":[
 				"mouth"
@@ -75,6 +95,26 @@
 			"info": "OStimBlowjobWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD3"
+		},
+		"climaxStatFaction":{
+			"info": "OStimBlowjobTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x938"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimBlowjobWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x939"
+		},
+		"playerStatList":{
+			"info": "OStimBlowjobWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x93C"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimBlowjobWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x93D"
 		},
 		"toySlot": "genital"
 	},

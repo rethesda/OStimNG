@@ -23,6 +23,26 @@
 			"info": "OStimVaginalTailSexWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x80B"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimVaginalTailSexActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9AE"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimVaginalTailSexWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9AF"
+		},
+		"playerStatList":{
+			"info": "OStimVaginalTailSexWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x9B2"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimVaginalTailSexWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x9B3"
 		}
 	},
 	"target":{
@@ -56,6 +76,26 @@
 			"info": "OStimVaginalTailSexWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0x80C"
+		},
+		"climaxStatFaction":{
+			"info": "OStimVaginalTailSexTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9B0"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimVaginalTailSexWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9B1"
+		},
+		"playerStatList":{
+			"info": "OStimVaginalTailSexWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x9B4"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimVaginalTailSexWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x9B5"
 		}
 	},
 	"performer":{

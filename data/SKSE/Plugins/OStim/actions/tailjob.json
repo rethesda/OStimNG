@@ -27,6 +27,26 @@
 			"info": "OStimTailjobWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFF6"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimTailjobActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x966"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimTailjobWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x967"
+		},
+		"playerStatList":{
+			"info": "OStimTailjobWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x96A"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimTailjobWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x96B"
 		}
 	},
 	"target":{
@@ -61,6 +81,26 @@
 			"info": "OStimTailjobWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFF7"
+		},
+		"climaxStatFaction":{
+			"info": "OStimTailjobTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x968"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimTailjobWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x969"
+		},
+		"playerStatList":{
+			"info": "OStimTailjobWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x96C"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimTailjobWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x96D"
 		}
 	},
 	"performer":{

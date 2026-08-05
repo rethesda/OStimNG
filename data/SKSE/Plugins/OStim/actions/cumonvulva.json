@@ -16,6 +16,21 @@
 			"info": "OStimCumOnVulvaActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0x866"
+		},
+		"climaxStatFaction":{
+			"info": "OStimCumOnVulvaActorClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x8F2"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimCumOnVulvaWithPlayerActorClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x8F4"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimCumOnVulvaWithPlayerActorClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x8F6"
 		}
 	},
 	"target":{
@@ -35,6 +50,21 @@
 			"info": "OStimCumOnVulvaTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0x867"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimCumOnVulvaTargetPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x8F3"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimCumOnVulvaWithPlayerTargetPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x8F5"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimCumOnVulvaWithPlayerTargetPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x8F7"
 		},
 		"stringLists":{
 			"cum":[

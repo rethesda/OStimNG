@@ -22,19 +22,39 @@
 			55
 		],
 		"faction":{
-			"info": "OStimClitoralEatingActorFaction",
+			"info": "OStimVulvalEatingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF46"
 		},
 		"statFaction":{
-			"info": "OStimClitoralEatingActorCounterFaction",
+			"info": "OStimVulvalEatingActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF49"
 		},
 		"playerStatFaction":{
-			"info": "OStimClitoralEatingWithPlayerActorCounterFaction",
+			"info": "OStimVulvalEatingWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD8"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimVulvalEatingActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9BE"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimVulvalEatingWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9BF"
+		},
+		"playerStatList":{
+			"info": "OStimVulvalEatingWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x9C2"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimVulvalEatingWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x9C3"
 		}
 	},
 	"target":{
@@ -54,19 +74,39 @@
 			54
 		],
 		"faction":{
-			"info": "OStimClitoralEatingTargetFaction",
+			"info": "OStimVulvalEatingTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF47"
 		},
 		"statFaction":{
-			"info": "OStimClitoralEatingTargetCounterFaction",
+			"info": "OStimVulvalEatingTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF4A"
 		},
 		"playerStatFaction":{
-			"info": "OStimClitoralEatingWithPlayerTargetCounterFaction",
+			"info": "OStimVulvalEatingWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD9"
+		},
+		"climaxStatFaction":{
+			"info": "OStimVulvalEatingSexTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9C0"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimVulvalEatingWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9C1"
+		},
+		"playerStatList":{
+			"info": "OStimVulvalEatingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x9C4"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimVulvalEatingWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x9C5"
 		},
 		"toySlot": "genital"
 	},
@@ -81,7 +121,7 @@
 		}
 	},
 	"tags":[
-		"clitoralstimulation",
+		"vulvalstimulation",
 		"cunnilingus",
 		"oral",
 		"sexual"

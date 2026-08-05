@@ -26,7 +26,7 @@
 		"climaxStatFaction":{
 			"info": "OStimGrindingObjectActorClimaxCounterFaction",
 			"mod": "OStim.esp",
-			"formid": "0x813"
+			"formid": "0x9D8"
 		},
 		"toySlot": "genital"
 	},

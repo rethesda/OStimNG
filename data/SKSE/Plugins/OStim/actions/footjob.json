@@ -32,6 +32,26 @@
 			"mod": "OStim.esp",
 			"formid": "0xFE0"
 		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimFootjobActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x94E"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimFootjobWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x94F"
+		},
+		"playerStatList":{
+			"info": "OStimFootjobWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x952"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimFootjobWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x953"
+		},
 		"stringLists":{
 			"cum":[
 				"feet"
@@ -68,6 +88,26 @@
 			"info": "OStimFootjobWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFE1"
+		},
+		"climaxStatFaction":{
+			"info": "OStimFootjobTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x950"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimFootjobWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x951"
+		},
+		"playerStatList":{
+			"info": "OStimFootjobWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x954"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimFootjobWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x955"
 		},
 		"toySlot": "genital"
 	},

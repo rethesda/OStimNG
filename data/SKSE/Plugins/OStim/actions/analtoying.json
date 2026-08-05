@@ -19,6 +19,26 @@
 			"info": "OStimAnalToyingWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD0"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimAnalToyingActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x92E"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimAnalToyingWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x92F"
+		},
+		"playerStatList":{
+			"info": "OStimAnalToyingWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x932"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimAnalToyingWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x933"
 		}
 	},
 	"target":{
@@ -51,6 +71,26 @@
 			"info": "OStimAnalToyingWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD1"
+		},
+		"climaxStatFaction":{
+			"info": "OStimAnalToyingTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x930"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimAnalToyingWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x931"
+		},
+		"playerStatList":{
+			"info": "OStimAnalToyingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x934"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimAnalToyingWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x935"
 		},
 		"toySlot": "anus"
 	},

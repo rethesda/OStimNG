@@ -30,6 +30,7 @@ namespace Graph {
         std::set<std::string> equipObjects;
         std::vector<GameAPI::GameFaction> factions;
         std::vector<GameAPI::GameFaction> statFactions;
+        std::vector<GameAPI::GameFaction> playerStatFactions;
         std::vector<GameAPI::GameFaction> climaxStatFactions;
         std::vector<GameAPI::GameFaction> partnerClimaxStatFactions;
         std::vector<GameAPI::GameFaction> playerClimaxStatFactions;

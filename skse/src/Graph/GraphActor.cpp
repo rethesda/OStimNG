@@ -24,6 +24,11 @@ namespace Graph {
                 statFactions.push_back(faction);
             }
         }
+        for (GameAPI::GameFaction faction : actor.playerStatFactions) {
+            if (!VectorUtil::contains(statFactions, faction)) {
+                statFactions.push_back(faction);
+            }
+        }
         for (GameAPI::GameFaction faction : actor.climaxStatFactions) {
             if (!VectorUtil::contains(climaxStatFactions, faction)) {
                 climaxStatFactions.push_back(faction);

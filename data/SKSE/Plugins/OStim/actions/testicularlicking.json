@@ -38,6 +38,26 @@
 			"info": "OStimTesticularLickingWithPlayerActorCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFFA"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimTesticularLickingActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x996"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimTesticularLickingWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x997"
+		},
+		"playerStatList":{
+			"info": "OStimTesticularLickingWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x99A"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimTesticularLickingWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x99B"
 		}
 	},
 	"target":{
@@ -70,6 +90,26 @@
 			"info": "OStimTesticularLickingWithPlayerTargetCounterFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFFB"
+		},
+		"climaxStatFaction":{
+			"info": "OStimTesticularLickingTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x998"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimTesticularLickingWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x999"
+		},
+		"playerStatList":{
+			"info": "OStimTesticularLickingWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x99C"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimTesticularLickingWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x99D"
 		},
 		"toySlot": "scrotum"
 	},
