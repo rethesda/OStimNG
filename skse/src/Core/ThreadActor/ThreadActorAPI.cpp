@@ -23,21 +23,15 @@ namespace Threading {
         }
 
 
-        logger::info("actor index: {}", index);
         if (!thread->isPlayerThread()) {
-            logger::info("exited non-player thread");
             return;
         }
 
         int playerIndex = thread->getPlayerIndex();
-        logger::info("player index: {}", playerIndex);
 
         for (Graph::Action::Action& action : thread->getCurrentNodeInternal()->actions) {
-            logger::info("looping action: {} {} {}", action.attributes->getActionID(), action.roles.actor, action.roles.target);
             if (action.roles.actor == playerIndex && action.roles.target == index) {
-                logger::info("identified matching action");
                 for (GameAPI::GameFaction faction : action.attributes->roles.target.playerStatFactions) {
-                    logger::info("incrementing faction: {:x}", faction.form->formID);
                     incrementStatFaction(faction);
                 }
                 for (GameAPI::GameList list : action.attributes->roles.target.playerStatLists) {
@@ -123,7 +117,6 @@ namespace Threading {
 
     void ThreadActor::incrementStatFaction(GameAPI::GameFaction faction) {
         if (statFactions.contains(faction.getIdentifier())) {
-            logger::info("faction already incremented");
             return;
         }
 

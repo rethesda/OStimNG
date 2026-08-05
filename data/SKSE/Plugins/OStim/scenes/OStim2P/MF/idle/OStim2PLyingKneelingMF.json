@@ -22,6 +22,12 @@
 			"destination": "OStim2PCowgirlIdleMF",
 			"description": "$ostim_nav_mount_t{0}",
 			"icon": "OStim/sexual/cowgirl_mf"
+		},
+		{
+			"destination": "OStim2PKneelingTailjobMF",
+			"description": "$ostim_nav_tailjob_t{0}",
+			"icon": "OStim/sexual/strapon_insert_vert",
+			"priority": 3000
 		}
 	],
 	"tags":[
