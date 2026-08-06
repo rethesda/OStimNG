@@ -8,4 +8,6 @@ EndEvent
 
 Event OnPlayerLoadGame()
 	OStim.OnLoadGame()
+	
+	(Game.GetFormFromFile(0xE3E, "OStim.esp") As OSexIntegrationMCM).SetupPages()
 EndEvent

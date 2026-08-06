@@ -1,0 +1,76 @@
+{
+	"actor":{
+		"faction":{
+			"info": "OStimOralNippleStimulationActorFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9E7"
+		},
+		"statFaction":{
+			"info": "OStimOralNippleStimulationActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9E8"
+		},
+		"playerStatFaction":{
+			"info": "OStimOralNippleStimulationWithPlayerActorCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9E9"
+		},
+		"partnerClimaxStatFaction":{
+			"info": "OStimOralNippleStimulationActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9EA"
+		},
+		"playerPartnerClimaxStatFaction":{
+			"info": "OStimOralNippleStimulationWithPlayerActorPartnerClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9EB"
+		},
+		"playerStatList":{
+			"info": "OStimOralNippleStimulationWithPlayerActorList",
+			"mod": "OStim.esp",
+			"formid": "0x9F1"
+		},
+		"playerPartnerClimaxStatList":{
+			"info": "OStimOralNippleStimulationWithPlayerActorPartnerClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x9F2"
+		}
+	},
+	"target":{
+		"faction":{
+			"info": "OStimOralNippleStimulationTargetFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9EC"
+		},
+		"statFaction":{
+			"info": "OStimOralNippleStimulationTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9ED"
+		},
+		"playerStatFaction":{
+			"info": "OStimOralNippleStimulationWithPlayerTargetCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9EE"
+		},
+		"climaxStatFaction":{
+			"info": "OStimOralNippleStimulationTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9EF"
+		},
+		"playerClimaxStatFaction":{
+			"info": "OStimOralNippleStimulationWithPlayerTargetClimaxCounterFaction",
+			"mod": "OStim.esp",
+			"formid": "0x9F0"
+		},
+		"playerStatList":{
+			"info": "OStimOralNippleStimulationWithPlayerTargetList",
+			"mod": "OStim.esp",
+			"formid": "0x9F3"
+		},
+		"playerClimaxStatList":{
+			"info": "OStimOralNippleStimulationWithPlayerTargetClimaxList",
+			"mod": "OStim.esp",
+			"formid": "0x9F4"
+		}
+	}
+}
