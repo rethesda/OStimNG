@@ -8,7 +8,6 @@
 #include "GameAPI/GameEvents.h"
 #include "Graph/GraphTable.h"
 #include "Graph/Node.h"
-#include <Messaging/IMessages.h>
 #include "UI/Align/AlignMenu.h"
 #include "UI/Scene/SceneMenu.h"
 #include "UI/UIState.h"
@@ -20,9 +19,7 @@
 #include "Util/LookupTable.h"
 #include "Util/MathUtil.h"
 #include "MCM/MCMTable.h"
-#include "Util/APITable.h"
 #include "Util/EventUtil.h"
-#include "Util/LookupTable.h"
 #include "Util/ObjectRefUtil.h"
 #include "Util/StringUtil.h"
 #include "Util.h"
@@ -330,13 +327,6 @@ namespace Threading {
         }
 
         nodeChangedAutoControl();
-
-        auto messaging = SKSE::GetMessagingInterface();
-
-        Messaging::AnimationChangedMessage msg;
-        msg.newAnimation = a_node;
-        logger::info("Sending animation changed event");
-        Messaging::MessagingRegistry::GetSingleton()->SendMessageToListeners(msg);
 
         GameAPI::GameEvents::sendSceneChangedEvent(m_threadId, m_currentNode->scene_id);
     }

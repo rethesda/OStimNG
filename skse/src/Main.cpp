@@ -2,13 +2,9 @@
 
 #include "Core.h"
 
-#include "Core/ThreadInterface.h"
 #include "Events/EventListener.h"
 #include "GameLogic/GameHooks.h"
 #include "GameLogic/GameTable.h"
-#include "InterfaceSpec/IPluginInterface.h"
-#include "InterfaceSpec/PluginInterface.h"
-#include "Messaging/IMessages.h"
 #include "Papyrus/Papyrus.h"
 #include "PluginInterface/InterfaceExchangeMessage.h"
 #include "PluginInterfaceImplementation/InterfaceMapImpl.h"
@@ -45,14 +41,10 @@ namespace {
 
     void UnspecificedSenderMessageHandler(SKSE::MessagingInterface::Message* a_msg) {        
         switch (a_msg->type) {
-            case OSAInterfaceExchangeMessage::kMessage_ExchangeInterface: {
-                OSAInterfaceExchangeMessage* exchangeMessage = (OSAInterfaceExchangeMessage*)a_msg->data;
-                exchangeMessage->interfaceMap = InterfaceMap::GetSingleton();
-            } break;
             case OStim::InterfaceExchangeMessage::MESSAGE_TYPE: {
                 OStim::InterfaceExchangeMessage* message = (OStim::InterfaceExchangeMessage*)a_msg->data;
                 message->interfaceMap = Interface::InterfaceMapImpl::getSingleton();
-            }
+            } break;
         }
     }
 
@@ -123,9 +115,6 @@ extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const LoadInterface* skse) {
     log::info("{} {} is loading...", plugin->GetName(), version);
 
     Init(skse);
-
-    InterfaceMap::GetSingleton()->AddInterface("Messaging", Messaging::MessagingRegistry::GetSingleton());
-    InterfaceMap::GetSingleton()->AddInterface("Threads", Interfaces::ThreadInterface::GetSingleton());
 
     auto message = SKSE::GetMessagingInterface();
     if (!message->RegisterListener(MessageHandler)) {

@@ -42,9 +42,6 @@ configure_file(
         ${CMAKE_CURRENT_BINARY_DIR}/version.rc
         @ONLY)
 
-set(headers
-        include/Header/Header.h)
-
 set(sources
     src/ActorProperties/ActorPropertyTable.cpp
     src/Alignment/ActorKey.cpp
@@ -74,9 +71,7 @@ set(sources
     src/Core/ThreadStarter/ThreadStartParams.cpp
     src/Core/Thread.cpp
     src/Core/ThreadActor.cpp
-    src/Core/ThreadInterface.cpp
     src/Core/ThreadManager.cpp
-    src/Core/ThreadManager.h
     src/Events/EventListener.cpp
     src/Furniture/Furniture.cpp
     src/Furniture/FurnitureTable.cpp
@@ -121,10 +116,8 @@ set(sources
     src/Graph/Node.cpp
     src/Graph/NodeTag.cpp
     src/Graph/Sequence.cpp
-    src/InterfaceSpec/PluginInterface.cpp
     src/MCM/MCMSetting.cpp
     src/MCM/MCMTable.cpp
-    src/Messaging/MessagingRegistry.cpp
 	src/PCH.h
 	src/Papyrus/Papyrus.cpp
 	src/Papyrus/Script.h
