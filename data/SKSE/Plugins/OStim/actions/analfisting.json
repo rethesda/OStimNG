@@ -17,22 +17,22 @@
 			"formid": "0xE4D"
 		},
 		"statFaction":{
-			"info": "OStimAnalFistingActorCounterFaction",
+			"info": "OStatAnalFistingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF0B"
 		},
 		"playerStatFaction":{
-			"info": "OStimAnalFistingWithPlayerActorCounterFaction",
+			"info": "OStatAnalFistingWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFC8"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimAnalFistingActorPartnerClimaxCounterFaction",
+			"info": "OStatAnalFistingActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x916"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimAnalFistingWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatAnalFistingWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x917"
 		},
@@ -69,22 +69,22 @@
 			"formid": "0xE4E"
 		},
 		"statFaction":{
-			"info": "OStimAnalFistingTargetCounterFaction",
+			"info": "OStatAnalFistingTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF0C"
 		},
 		"playerStatFaction":{
-			"info": "OStimAnalFistingWithPlayerTargetCounterFaction",
+			"info": "OStatAnalFistingWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFC9"
 		},
 		"climaxStatFaction":{
-			"info": "OStimAnalFistingTargetClimaxCounterFaction",
+			"info": "OStatAnalFistingTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x918"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimAnalFistingWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatAnalFistingWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x919"
 		},

@@ -36,12 +36,12 @@
 			"formid": "0xE93"
 		},
 		"statFaction":{
-			"info": "OStimVampireBitingActorCounterFaction",
+			"info": "OStatVampireBitingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF75"
 		},
 		"playerStatFaction":{
-			"info": "OStimVampireBitingWithPlayerActorCounterFaction",
+			"info": "OStatVampireBitingWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0x80F"
 		},
@@ -62,12 +62,12 @@
 			"formid": "0xE94"
 		},
 		"statFaction":{
-			"info": "OStimVampireBitingTargetCounterFaction",
+			"info": "OStatVampireBitingTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF76"
 		},
 		"playerStatFaction":{
-			"info": "OStimVampireBitingWithPlayerTargetCounterFaction",
+			"info": "OStatVampireBitingWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0x810"
 		},

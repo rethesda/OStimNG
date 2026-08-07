@@ -34,22 +34,22 @@
 			"formid": "0xE7D"
 		},
 		"statFaction":{
-			"info": "OStimVulvalLickingActorCounterFaction",
+			"info": "OStatVulvalLickingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF44"
 		},
 		"playerStatFaction":{
-			"info": "OStimVulvalLickingWithPlayerActorCounterFaction",
+			"info": "OStatVulvalLickingWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFDA"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimVulvalLickingActorPartnerClimaxCounterFaction",
+			"info": "OStatVulvalLickingActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9C6"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimVulvalLickingWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatVulvalLickingWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9C7"
 		},
@@ -86,22 +86,22 @@
 			"formid": "0xE7E"
 		},
 		"statFaction":{
-			"info": "OStimVulvalLickingTActorCounterFaction",
+			"info": "OStatVulvalLickingTActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF45"
 		},
 		"playerStatFaction":{
-			"info": "OStimVulvalLickingTWithPlayerTargetCounterFaction",
+			"info": "OStatVulvalLickingTWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFDB"
 		},
 		"climaxStatFaction":{
-			"info": "OStimVulvalLickingSexTargetClimaxCounterFaction",
+			"info": "OStatVulvalLickingSexTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9C8"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimVulvalLickingWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatVulvalLickingWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9C9"
 		},

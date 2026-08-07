@@ -6,22 +6,22 @@
 			"formid": "0x9E7"
 		},
 		"statFaction":{
-			"info": "OStimOralNippleStimulationActorCounterFaction",
+			"info": "OStatOralNippleStimulationActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9E8"
 		},
 		"playerStatFaction":{
-			"info": "OStimOralNippleStimulationWithPlayerActorCounterFaction",
+			"info": "OStatOralNippleStimulationWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9E9"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimOralNippleStimulationActorPartnerClimaxCounterFaction",
+			"info": "OStatOralNippleStimulationActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9EA"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimOralNippleStimulationWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatOralNippleStimulationWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9EB"
 		},
@@ -43,22 +43,22 @@
 			"formid": "0x9EC"
 		},
 		"statFaction":{
-			"info": "OStimOralNippleStimulationTargetCounterFaction",
+			"info": "OStatOralNippleStimulationTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9ED"
 		},
 		"playerStatFaction":{
-			"info": "OStimOralNippleStimulationWithPlayerTargetCounterFaction",
+			"info": "OStatOralNippleStimulationWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9EE"
 		},
 		"climaxStatFaction":{
-			"info": "OStimOralNippleStimulationTargetClimaxCounterFaction",
+			"info": "OStatOralNippleStimulationTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9EF"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimOralNippleStimulationWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatOralNippleStimulationWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9F0"
 		},

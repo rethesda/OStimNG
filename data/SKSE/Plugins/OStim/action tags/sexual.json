@@ -6,32 +6,32 @@
 			"formid": "0xF8D"
 		},
 		"statFaction":{
-			"info": "OStimSexualMateCounterFaction",
+			"info": "OStatSexualMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF8E"
 		},
 		"playerStatFaction":{
-			"info": "OStimSexualWithPlayerMateCounterFaction",
+			"info": "OStatSexualWithPlayerMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA6"
 		},
 		"climaxStatFaction":{
-			"info": "OStimSexualMateClimaxCounterFaction",
+			"info": "OStatSexualMateClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x84F"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimSexualMatePartnerClimaxCounterFaction",
+			"info": "OStatSexualMatePartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x850"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimSexualWithPlayerMateClimaxCounterFaction",
+			"info": "OStatSexualWithPlayerMateClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x851"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimSexualWithPlayerMatePartnerClimaxCounterFaction",
+			"info": "OStatSexualWithPlayerMatePartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x852"
 		},
@@ -58,32 +58,32 @@
 			"formid": "0xF8D"
 		},
 		"statFaction":{
-			"info": "OStimSexualMateCounterFaction",
+			"info": "OStatSexualMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF8E"
 		},
 		"playerStatFaction":{
-			"info": "OStimSexualWithPlayerMateCounterFaction",
+			"info": "OStatSexualWithPlayerMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA6"
 		},
 		"climaxStatFaction":{
-			"info": "OStimSexualMateClimaxCounterFaction",
+			"info": "OStatSexualMateClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x84F"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimSexualMatePartnerClimaxCounterFaction",
+			"info": "OStatSexualMatePartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x850"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimSexualWithPlayerMateClimaxCounterFaction",
+			"info": "OStatSexualWithPlayerMateClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x851"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimSexualWithPlayerMatePartnerClimaxCounterFaction",
+			"info": "OStatSexualWithPlayerMatePartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x852"
 		},

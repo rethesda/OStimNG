@@ -21,12 +21,12 @@
 			"formid": "0x860"
 		},
 		"climaxStatFaction":{
-			"info": "OStimFacialActorClimaxCounterFaction",
+			"info": "OStatFacialActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8F8"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimFacialWithPlayerActorClimaxCounterFaction",
+			"info": "OStatFacialWithPlayerActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8FA"
 		},
@@ -50,12 +50,12 @@
 			"formid": "0x861"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimFacialTargetPartnerClimaxCounterFaction",
+			"info": "OStatFacialTargetPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8F9"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimFacialWithPlayerTargetPartnerClimaxCounterFaction",
+			"info": "OStatFacialWithPlayerTargetPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8FB"
 		},

@@ -27,22 +27,22 @@
 			"formid": "0xE82"
 		},
 		"statFaction":{
-			"info": "OStimVulvalRubbingActorCounterFaction",
+			"info": "OStatVulvalRubbingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF6F"
 		},
 		"playerStatFaction":{
-			"info": "OStimVulvalRubbingWithPlayerActorCounterFaction",
+			"info": "OStatVulvalRubbingWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFDC"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimVulvalRubbingActorPartnerClimaxCounterFaction",
+			"info": "OStatVulvalRubbingActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9CE"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimVulvalRubbingWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatVulvalRubbingWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9CF"
 		},
@@ -79,22 +79,22 @@
 			"formid": "0xE83"
 		},
 		"statFaction":{
-			"info": "OStimVulvalRubbingActorCounterFaction",
+			"info": "OStatVulvalRubbingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF70"
 		},
 		"playerStatFaction":{
-			"info": "OStimVulvalRubbingWithPlayerTargetCounterFaction",
+			"info": "OStatVulvalRubbingWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFDD"
 		},
 		"climaxStatFaction":{
-			"info": "OStimVulvalRubbingSexTargetClimaxCounterFaction",
+			"info": "OStatVulvalRubbingSexTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9D0"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimVulvalRubbingWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatVulvalRubbingWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x9D1"
 		},

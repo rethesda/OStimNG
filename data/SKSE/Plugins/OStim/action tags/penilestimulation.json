@@ -6,22 +6,22 @@
 			"formid": "0xF23"
 		},
 		"statFaction":{
-			"info": "OStimPenileStimulationActorCounterFaction",
+			"info": "OStatPenileStimulationActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF25"
 		},
 		"playerStatFaction":{
-			"info": "OStimPenileStimulationWithPlayerActorCounterFaction",
+			"info": "OStatPenileStimulationWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA4"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimPenileStimulationActorPartnerClimaxCounterFaction",
+			"info": "OStatPenileStimulationActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x84C"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimPenileStimulationWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatPenileStimulationWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x84E"
 		},
@@ -43,22 +43,22 @@
 			"formid": "0xF24"
 		},
 		"statFaction":{
-			"info": "OStimPenileStimulationTargetCounterFaction",
+			"info": "OStatPenileStimulationTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF26"
 		},
 		"playerStatFaction":{
-			"info": "OStimPenileStimulationWithPlayerTargetCounterFaction",
+			"info": "OStatPenileStimulationWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA5"
 		},
 		"climaxStatFaction":{
-			"info": "OStimPenileStimulationTargetClimaxCounterFaction",
+			"info": "OStatPenileStimulationTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x84B"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimPenileStimulationWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatPenileStimulationWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x84D"
 		},

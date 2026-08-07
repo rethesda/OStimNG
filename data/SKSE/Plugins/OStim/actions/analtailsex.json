@@ -15,22 +15,22 @@
 			"formid": "0xF82"
 		},
 		"statFaction":{
-			"info": "OStimAnalTailSexActorCounterFaction",
+			"info": "OStatAnalTailSexActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF84"
 		},
 		"playerStatFaction":{
-			"info": "OStimAnalTailSexWithPlayerActorCounterFaction",
+			"info": "OStatAnalTailSexWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFCE"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimAnalTailSexActorPartnerClimaxCounterFaction",
+			"info": "OStatAnalTailSexActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x926"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimAnalTailSexWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatAnalTailSexWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x927"
 		},
@@ -69,22 +69,22 @@
 			"formid": "0xF83"
 		},
 		"statFaction":{
-			"info": "OStimAnalTailSexTargetCounterFaction",
+			"info": "OStatAnalTailSexTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF85"
 		},
 		"playerStatFaction":{
-			"info": "OStimAnalTailSexWithPlayerTargetCounterFaction",
+			"info": "OStatAnalTailSexWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFCF"
 		},
 		"climaxStatFaction":{
-			"info": "OStimAnalTailSexTargetClimaxCounterFaction",
+			"info": "OStatAnalTailSexTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x928"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimAnalTailSexWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatAnalTailSexWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x929"
 		},

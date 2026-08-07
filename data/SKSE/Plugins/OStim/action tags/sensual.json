@@ -6,12 +6,12 @@
 			"formid": "0xFB4"
 		},
 		"statFaction":{
-			"info": "OStimSensualMateCounterFaction",
+			"info": "OStatSensualMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFB5"
 		},
 		"playerStatFaction":{
-			"info": "OStimSensualWithPlayerMateCounterFaction",
+			"info": "OStatSensualWithPlayerMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFB6"
 		},
@@ -28,12 +28,12 @@
 			"formid": "0xFB4"
 		},
 		"statFaction":{
-			"info": "OStimSensualMateCounterFaction",
+			"info": "OStatSensualMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFB5"
 		},
 		"playerStatFaction":{
-			"info": "OStimSensualWithPlayerMateCounterFaction",
+			"info": "OStatSensualWithPlayerMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFB6"
 		},

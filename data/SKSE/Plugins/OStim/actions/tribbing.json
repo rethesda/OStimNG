@@ -21,32 +21,32 @@
 			"formid": "0xE8B"
 		},
 		"statFaction":{
-			"info": "OStimTribbingMateCounterFaction",
+			"info": "OStatTribbingMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF16"
 		},
 		"playerStatFaction":{
-			"info": "OStimTribbingWithPlayerMateCounterFaction",
+			"info": "OStatTribbingWithPlayerMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFFE"
 		},
 		"climaxStatFaction":{
-			"info": "OStimTribbingMateClimaxCounterFaction",
+			"info": "OStatTribbingMateClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8B5"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimTribbingMatePartnerClimaxCounterFaction",
+			"info": "OStatTribbingMatePartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8B6"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimTribbingWithPlayerMateClimaxCounterFaction",
+			"info": "OStatTribbingWithPlayerMateClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8B7"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimTribbingWithPlayerMatePartnerClimaxCounterFaction",
+			"info": "OStatTribbingWithPlayerMatePartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8B8"
 		},
@@ -88,12 +88,12 @@
 			"formid": "0xE8B"
 		},
 		"statFaction":{
-			"info": "OStimTribbingMateCounterFaction",
+			"info": "OStatTribbingMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF16"
 		},
 		"playerStatFaction":{
-			"info": "OStimTribbingWithPlayerMateCounterFaction",
+			"info": "OStatTribbingWithPlayerMateFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFFE"
 		},

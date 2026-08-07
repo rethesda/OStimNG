@@ -24,32 +24,32 @@
 			"formid": "0xE4F"
 		},
 		"statFaction":{
-			"info": "OStimAnalSexActorCounterFaction",
+			"info": "OStatAnalSexActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF11"
 		},
 		"playerStatFaction":{
-			"info": "OStimAnalSexWithPlayerActorCounterFaction",
+			"info": "OStatAnalSexWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFCC"
 		},
 		"climaxStatFaction":{
-			"info": "OStimAnalSexActorClimaxCounterFaction",
+			"info": "OStatAnalSexActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8BC"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimAnalSexActorPartnerClimaxCounterFaction",
+			"info": "OStatAnalSexActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8BD"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimAnalSexWithPlayerActorClimaxCounterFaction",
+			"info": "OStatAnalSexWithPlayerActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8BE"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimAnalSexWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatAnalSexWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8BF"
 		},
@@ -92,32 +92,32 @@
 			"formid": "0xE50"
 		},
 		"statFaction":{
-			"info": "OStimAnalSexTargetCounterFaction",
+			"info": "OStatAnalSexTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF12"
 		},
 		"playerStatFaction":{
-			"info": "OStimAnalSexWithPlayerTargetCounterFaction",
+			"info": "OStatAnalSexWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFCD"
 		},
 		"climaxStatFaction":{
-			"info": "OStimAnalSexTargetClimaxCounterFaction",
+			"info": "OStatAnalSexTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8C3"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimAnalSexTargetPartnerClimaxCounterFaction",
+			"info": "OStatAnalSexTargetPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8C4"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimAnalSexWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatAnalSexWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8C5"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimAnalSexWithPlayerTargetPartnerClimaxCounterFaction",
+			"info": "OStatAnalSexWithPlayerTargetPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8C6"
 		},

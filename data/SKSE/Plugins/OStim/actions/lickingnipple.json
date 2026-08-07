@@ -26,22 +26,22 @@
 			"formid": "0xE77"
 		},
 		"statFaction":{
-			"info": "OStimLickingNippleActorCounterFaction",
+			"info": "OStatLickingNippleActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF6B"
 		},
 		"playerStatFaction":{
-			"info": "OStimLickingNippleWithPlayerActorCounterFaction",
+			"info": "OStatLickingNippleWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFEC"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimLickingNippleActorPartnerClimaxCounterFaction",
+			"info": "OStatLickingNippleActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x97E"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimLickingNippleWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatLickingNippleWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x97F"
 		},
@@ -76,22 +76,22 @@
 			"formid": "0xE78"
 		},
 		"statFaction":{
-			"info": "OStimLickingNippleTargetCounterFaction",
+			"info": "OStatLickingNippleTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF6C"
 		},
 		"playerStatFaction":{
-			"info": "OStimLickingNippleWithPlayerTargetCounterFaction",
+			"info": "OStatLickingNippleWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFED"
 		},
 		"climaxStatFaction":{
-			"info": "OStimLickingNippleTargetClimaxCounterFaction",
+			"info": "OStatLickingNippleTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x980"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimLickingNippleWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatLickingNippleWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x981"
 		},

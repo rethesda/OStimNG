@@ -26,32 +26,32 @@
 			"formid": "0xE64"
 		},
 		"statFaction":{
-			"info": "OStimGrindingPenisActorCounterFaction",
+			"info": "OStatGrindingPenisActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF60"
 		},
 		"playerStatFaction":{
-			"info": "OStimGrindingPenisWithPlayerActorCounterFaction",
+			"info": "OStatGrindingPenisWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFE5"
 		},
 		"climaxStatFaction":{
-			"info": "OStimVaginalSexActorClimaxCounterFaction",
+			"info": "OStatVaginalSexActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8D8"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimVaginalSexActorPartnerClimaxCounterFaction",
+			"info": "OStatVaginalSexActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8D9"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimVaginalSexWithPlayerActorClimaxCounterFaction",
+			"info": "OStatVaginalSexWithPlayerActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8DA"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimVaginalSexWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatVaginalSexWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8DB"
 		},
@@ -94,32 +94,32 @@
 			"formid": "0xE65"
 		},
 		"statFaction":{
-			"info": "OStimGrindingPenisTargetCounterFaction",
+			"info": "OStatGrindingPenisTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF61"
 		},
 		"playerStatFaction":{
-			"info": "OStimGrindingPenisWithPlayerTargetCounterFaction",
+			"info": "OStatGrindingPenisWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFE6"
 		},
 		"climaxStatFaction":{
-			"info": "OStimVaginalSexActorClimaxCounterFaction",
+			"info": "OStatVaginalSexActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8DC"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimVaginalSexActorPartnerClimaxCounterFaction",
+			"info": "OStatVaginalSexActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8DD"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimVaginalSexWithPlayerActorClimaxCounterFaction",
+			"info": "OStatVaginalSexWithPlayerActorClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8DE"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimVaginalSexWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatVaginalSexWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x8DF"
 		},

@@ -28,22 +28,22 @@
 			"formid": "0xE55"
 		},
 		"statFaction":{
-			"info": "OStimBoobjobActorCounterFaction",
+			"info": "OStatBoobjobActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF52"
 		},
 		"playerStatFaction":{
-			"info": "OStimBoobjobWithPlayerActorCounterFaction",
+			"info": "OStatBoobjobWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD4"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimBoobjobActorPartnerClimaxCounterFaction",
+			"info": "OStatBoobjobActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x93E"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimBoobjobWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatBoobjobWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x93F"
 		},
@@ -78,22 +78,22 @@
 			"formid": "0xE56"
 		},
 		"statFaction":{
-			"info": "OStimBoobjobTargetCounterFaction",
+			"info": "OStatBoobjobTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF53"
 		},
 		"playerStatFaction":{
-			"info": "OStimBoobjobWithPlayerActorCounterFaction",
+			"info": "OStatBoobjobWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFD5"
 		},
 		"climaxStatFaction":{
-			"info": "OStimBoobjobTargetClimaxCounterFaction",
+			"info": "OStatBoobjobTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x940"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimBoobjobWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatBoobjobWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x941"
 		},

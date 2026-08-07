@@ -6,22 +6,22 @@
 			"formid": "0xF31"
 		},
 		"statFaction":{
-			"info": "OStimVaginalPenetrationActorCounterFaction",
+			"info": "OStatVaginalPenetrationActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF33"
 		},
 		"playerStatFaction":{
-			"info": "OStimVaginalPenetrationWithPlayerActorCounterFaction",
+			"info": "OStatVaginalPenetrationWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFA9"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimVaginalPenetrationActorPartnerClimaxCounterFaction",
+			"info": "OStatVaginalPenetrationActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x858"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimVaginalPenetrationWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatVaginalPenetrationWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x85A"
 		},
@@ -43,22 +43,22 @@
 			"formid": "0xF32"
 		},
 		"statFaction":{
-			"info": "OStimVaginalPenetrationTargetCounterFaction",
+			"info": "OStatVaginalPenetrationTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xF34"
 		},
 		"playerStatFaction":{
-			"info": "OStimVaginalPenetrationWithPlayerTargetCounterFaction",
+			"info": "OStatVaginalPenetrationWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFAA"
 		},
 		"climaxStatFaction":{
-			"info": "OStimVaginalPenetrationTargetClimaxCounterFaction",
+			"info": "OStatVaginalPenetrationTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x857"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimVaginalPenetrationWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatVaginalPenetrationWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x859"
 		},

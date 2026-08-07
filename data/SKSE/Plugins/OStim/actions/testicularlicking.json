@@ -30,22 +30,22 @@
 			"formid": "0xE7B"
 		},
 		"statFaction":{
-			"info": "OStimTesticularLickingActorCounterFaction",
+			"info": "OStatTesticularLickingActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFF8"
 		},
 		"playerStatFaction":{
-			"info": "OStimTesticularLickingWithPlayerActorCounterFaction",
+			"info": "OStatTesticularLickingWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFFA"
 		},
 		"partnerClimaxStatFaction":{
-			"info": "OStimTesticularLickingActorPartnerClimaxCounterFaction",
+			"info": "OStatTesticularLickingActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x996"
 		},
 		"playerPartnerClimaxStatFaction":{
-			"info": "OStimTesticularLickingWithPlayerActorPartnerClimaxCounterFaction",
+			"info": "OStatTesticularLickingWithPlayerActorPartnerClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x997"
 		},
@@ -82,22 +82,22 @@
 			"formid": "0xE7C"
 		},
 		"statFaction":{
-			"info": "OStimTesticularLickingTargetCounterFaction",
+			"info": "OStatTesticularLickingTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFF9"
 		},
 		"playerStatFaction":{
-			"info": "OStimTesticularLickingWithPlayerTargetCounterFaction",
+			"info": "OStatTesticularLickingWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFFB"
 		},
 		"climaxStatFaction":{
-			"info": "OStimTesticularLickingTargetClimaxCounterFaction",
+			"info": "OStatTesticularLickingTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x998"
 		},
 		"playerClimaxStatFaction":{
-			"info": "OStimTesticularLickingWithPlayerTargetClimaxCounterFaction",
+			"info": "OStatTesticularLickingWithPlayerTargetClimaxFaction",
 			"mod": "OStim.esp",
 			"formid": "0x999"
 		},

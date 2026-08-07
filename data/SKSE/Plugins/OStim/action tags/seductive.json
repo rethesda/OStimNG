@@ -6,12 +6,12 @@
 			"formid": "0xFBA"
 		},
 		"statFaction":{
-			"info": "OStimSeductiveActorCounterFaction",
+			"info": "OStatSeductiveActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFBC"
 		},
 		"playerStatFaction":{
-			"info": "OStimSeductiveWithPlayerActorCounterFaction",
+			"info": "OStatSeductiveWithPlayerActorFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFBE"
 		},
@@ -28,12 +28,12 @@
 			"formid": "0xFBB"
 		},
 		"statFaction":{
-			"info": "OStimSeductiveTargetCounterFaction",
+			"info": "OStatSeductiveTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFBD"
 		},
 		"playerStatFaction":{
-			"info": "OStimSeductiveWithPlayerTargetCounterFaction",
+			"info": "OStatSeductiveWithPlayerTargetFaction",
 			"mod": "OStim.esp",
 			"formid": "0xFBF"
 		},

@@ -9,6 +9,6 @@ namespace Util {
         OStimTimesClimaxedFaction.loadFile("OStim.esp", 0xE49);
         OStimTimeUntilClimaxFaction.loadFile("OStim.esp", 0xE4A);
 
-        OStimActorList.loadFile("OStim.esp", 0x85F);
+        OStatActorList.loadFile("OStim.esp", 0x85F);
     }
 }
