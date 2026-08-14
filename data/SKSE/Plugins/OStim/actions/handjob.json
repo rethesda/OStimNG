@@ -42,12 +42,12 @@
 			"formid": "0x957"
 		},
 		"playerStatList":{
-			"info": "OStimHandjobWithPlayerActorList",
+			"info": "OStatHandjobWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x95A"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimHandjobWithPlayerActorPartnerClimaxList",
+			"info": "OStatHandjobWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x95B"
 		}
@@ -94,12 +94,12 @@
 			"formid": "0x959"
 		},
 		"playerStatList":{
-			"info": "OStimHandjobWithPlayerTargetList",
+			"info": "OStatHandjobWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x95C"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimHandjobWithPlayerTargetClimaxList",
+			"info": "OStatHandjobWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x95D"
 		},

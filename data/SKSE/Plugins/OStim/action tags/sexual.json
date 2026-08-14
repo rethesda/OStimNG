@@ -36,17 +36,17 @@
 			"formid": "0x852"
 		},
 		"playerStatList":{
-			"info": "OStimSexualWithPlayerMateList",
+			"info": "OStatSexualWithPlayerMateList",
 			"mod": "OStim.esp",
 			"formid": "0x89E"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimSexualWithPlayerMateClimaxList",
+			"info": "OStatSexualWithPlayerMateClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x89F"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimSexualWithPlayerMatePartnerClimaxList",
+			"info": "OStatSexualWithPlayerMatePartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8A0"
 		}
@@ -88,17 +88,17 @@
 			"formid": "0x852"
 		},
 		"playerStatList":{
-			"info": "OStimSexualWithPlayerMateList",
+			"info": "OStatSexualWithPlayerMateList",
 			"mod": "OStim.esp",
 			"formid": "0x89E"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimSexualWithPlayerMateClimaxList",
+			"info": "OStatSexualWithPlayerMateClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x89F"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimSexualWithPlayerMatePartnerClimaxList",
+			"info": "OStatSexualWithPlayerMatePartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8A0"
 		}

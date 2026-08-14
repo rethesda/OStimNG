@@ -16,7 +16,7 @@
 			"formid": "0xFBE"
 		},
 		"playerStatList":{
-			"info": "OStimSeductiveWithPlayerActorList",
+			"info": "OStatSeductiveWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x89B"
 		}
@@ -38,7 +38,7 @@
 			"formid": "0xFBF"
 		},
 		"playerStatList":{
-			"info": "OStimSeductiveWithPlayerTargetList",
+			"info": "OStatSeductiveWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x89C"
 		}

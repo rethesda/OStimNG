@@ -43,12 +43,12 @@
 			"formid": "0x94F"
 		},
 		"playerStatList":{
-			"info": "OStimFootjobWithPlayerActorList",
+			"info": "OStatFootjobWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x952"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimFootjobWithPlayerActorPartnerClimaxList",
+			"info": "OStatFootjobWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x953"
 		},
@@ -100,12 +100,12 @@
 			"formid": "0x951"
 		},
 		"playerStatList":{
-			"info": "OStimFootjobWithPlayerTargetList",
+			"info": "OStatFootjobWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x954"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimFootjobWithPlayerTargetClimaxList",
+			"info": "OStatFootjobWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x955"
 		},

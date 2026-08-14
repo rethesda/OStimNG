@@ -51,17 +51,17 @@
 			"formid": "0x8B8"
 		},
 		"playerStatList":{
-			"info": "OStimTribbingWithPlayerMateList",
+			"info": "OStatTribbingWithPlayerMateList",
 			"mod": "OStim.esp",
 			"formid": "0x8B9"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimTribbingWithPlayerMateClimaxList",
+			"info": "OStatTribbingWithPlayerMateClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8BA"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimTribbingWithPlayerMatePartnerClimaxList",
+			"info": "OStatTribbingWithPlayerMatePartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8BB"
 		},

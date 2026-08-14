@@ -47,12 +47,12 @@
 			"formid": "0x9CF"
 		},
 		"playerStatList":{
-			"info": "OStimVulvalRubbingWithPlayerActorList",
+			"info": "OStatVulvalRubbingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x9D2"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimVulvalRubbingWithPlayerActorPartnerClimaxList",
+			"info": "OStatVulvalRubbingWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x9D3"
 		}
@@ -99,12 +99,12 @@
 			"formid": "0x9D1"
 		},
 		"playerStatList":{
-			"info": "OStimVulvalRubbingWithPlayerTargetList",
+			"info": "OStatVulvalRubbingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x9D4"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimVulvalRubbingWithPlayerTargetClimaxList",
+			"info": "OStatVulvalRubbingWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x9D5"
 		},

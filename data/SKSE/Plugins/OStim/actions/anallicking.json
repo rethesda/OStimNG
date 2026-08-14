@@ -46,12 +46,12 @@
 			"formid": "0x91F"
 		},
 		"playerStatList":{
-			"info": "OStimAnalLickingWithPlayerActorList",
+			"info": "OStatAnalLickingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x922"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimAnalLickingWithPlayerActorPartnerClimaxList",
+			"info": "OStatAnalLickingWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x923"
 		}
@@ -98,12 +98,12 @@
 			"formid": "0x921"
 		},
 		"playerStatList":{
-			"info": "OStimAnalLickingWithPlayerTargetList",
+			"info": "OStatAnalLickingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x924"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimAnalLickingWithPlayerTargetClimaxList",
+			"info": "OStatAnalLickingWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x925"
 		},

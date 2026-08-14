@@ -26,12 +26,12 @@
 			"formid": "0x83E"
 		},
 		"playerStatList":{
-			"info": "OStimAnyGindingWithPlayerActorList",
+			"info": "OStatAnyGindingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x888"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimAnyGindingWithPlayerActorClimaxList",
+			"info": "OStatAnyGindingWithPlayerActorClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x889"
 		}
@@ -43,7 +43,7 @@
 			"formid": "0xF9E"
 		},
 		"playerStatList":{
-			"info": "OStimAnyGindingWithPlayerTargetList",
+			"info": "OStatAnyGindingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x88A"
 		}

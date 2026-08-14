@@ -21,7 +21,7 @@
 			"formid": "0xFEE"
 		},
 		"playerStatList":{
-			"info": "OStimOralToyingWithPlayerActorList",
+			"info": "OStatOralToyingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x8B3"
 		}
@@ -57,7 +57,7 @@
 			"formid": "0xFEF"
 		},
 		"playerStatList":{
-			"info": "OStimOralToyingWithPlayerTargetList",
+			"info": "OStatOralToyingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x8B4"
 		}

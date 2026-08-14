@@ -42,6 +42,7 @@ namespace Threading {
         float worldFOVbefore = 0;
         float timeScaleBefore = 0;
     };
+
     class Thread : public OStim::Thread, public RE::BSTEventSink<RE::BSAnimationGraphEvent>{
     public:
         ThreadId m_threadId;

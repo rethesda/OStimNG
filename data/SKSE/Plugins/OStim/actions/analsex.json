@@ -54,17 +54,17 @@
 			"formid": "0x8BF"
 		},
 		"playerStatList":{
-			"info": "OStimAnalSexWithPlayerActorList",
+			"info": "OStatAnalSexWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x8C0"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimAnalSexWithPlayerActorClimaxList",
+			"info": "OStatAnalSexWithPlayerActorClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8C1"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimAnalSexWithPlayerActorPartnerClimaxList",
+			"info": "OStatAnalSexWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8C2"
 		},
@@ -122,17 +122,17 @@
 			"formid": "0x8C6"
 		},
 		"playerStatList":{
-			"info": "OStimAnalSexWithPlayerTargetList",
+			"info": "OStatAnalSexWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x8C7"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimAnalSexWithPlayerTargetClimaxList",
+			"info": "OStatAnalSexWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8C8"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimAnalSexWithPlayerTargetPartnerClimaxList",
+			"info": "OStatAnalSexWithPlayerTargetPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8C9"
 		},

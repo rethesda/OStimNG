@@ -48,12 +48,12 @@
 			"formid": "0x93F"
 		},
 		"playerStatList":{
-			"info": "OStimBoobjobWithPlayerActorList",
+			"info": "OStatBoobjobWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x942"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimBoobjobWithPlayerActorPartnerClimaxList",
+			"info": "OStatBoobjobWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x943"
 		},
@@ -98,12 +98,12 @@
 			"formid": "0x941"
 		},
 		"playerStatList":{
-			"info": "OStimBoobjobWithPlayerTargetList",
+			"info": "OStatBoobjobWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x944"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimBoobjobWithPlayerTargetClimaxList",
+			"info": "OStatBoobjobWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x945"
 		},

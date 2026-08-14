@@ -44,12 +44,12 @@
 			"formid": "0x977"
 		},
 		"playerStatList":{
-			"info": "OStimDeepthroatingWithPlayerActorList",
+			"info": "OStatDeepthroatingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x97A"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimDeepthroatingWithPlayerActorPartnerClimaxList",
+			"info": "OStatDeepthroatingWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x97B"
 		},
@@ -101,12 +101,12 @@
 			"formid": "0x979"
 		},
 		"playerStatList":{
-			"info": "OStimDeepthroatingWithPlayerTargetList",
+			"info": "OStatDeepthroatingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x97C"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimDeepthroatingWithPlayerTargetClimaxList",
+			"info": "OStatDeepthroatingWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x97D"
 		},

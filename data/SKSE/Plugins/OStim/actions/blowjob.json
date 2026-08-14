@@ -50,12 +50,12 @@
 			"formid": "0x937"
 		},
 		"playerStatList":{
-			"info": "OStimBlowjobWithPlayerActorList",
+			"info": "OStatBlowjobWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x93A"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimBlowjobWithPlayerActorPartnerClimaxList",
+			"info": "OStatBlowjobWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x93B"
 		},
@@ -107,12 +107,12 @@
 			"formid": "0x939"
 		},
 		"playerStatList":{
-			"info": "OStimBlowjobWithPlayerTargetList",
+			"info": "OStatBlowjobWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x93C"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimBlowjobWithPlayerTargetClimaxList",
+			"info": "OStatBlowjobWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x93D"
 		},

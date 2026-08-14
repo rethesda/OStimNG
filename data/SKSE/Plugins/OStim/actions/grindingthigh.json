@@ -44,12 +44,12 @@
 			"formid": "0x908"
 		},
 		"playerStatList":{
-			"info": "OStimGrindingThighWithPlayerActorList",
+			"info": "OStatGrindingThighWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x90A"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimGrindingThighWithPlayerActorClimaxList",
+			"info": "OStatGrindingThighWithPlayerActorClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x90B"
 		},
@@ -94,12 +94,12 @@
 			"formid": "0x909"
 		},
 		"playerStatList":{
-			"info": "OStimGrindingThighWithPlayerTargetList",
+			"info": "OStatGrindingThighWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x90C"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimGrindingThighWithPlayerTargetPartnerClimaxList",
+			"info": "OStatGrindingThighWithPlayerTargetPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x90D"
 		}

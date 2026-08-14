@@ -182,7 +182,7 @@ EndFunction
 * * @param: IncludePlayer, if false the player will not be included in the list
 * * @param: OStimActorsOnly, if true only actors that qualify for OStim scenes will be included in the list
 * * @param: Condition, if set only actors who fulfill the condition functions of the perk will be included
-* * 	actors do not have to have the perk for this, just fulfill it's condition functions
+* * 	actors do not have to have the perk for this, just fulfill its condition functions
 * *
 * * @return: an array of all actors in range (and fulfilling the condition, if one is given)
 */;

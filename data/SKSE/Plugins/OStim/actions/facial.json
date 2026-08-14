@@ -31,13 +31,16 @@
 			"formid": "0x8FA"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimFacialWithPlayerActorClimaxList",
+			"info": "OStatFacialWithPlayerActorClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8FC"
 		}
 	},
 	"target":{
 		"info": "the one with the face",
+		"moan": true,
+		"talk":true,
+		"expressionOverride":"tongue",
 		"strippingSlots":[
 			30,
 			31,
@@ -60,7 +63,7 @@
 			"formid": "0x8FB"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimFacialWithPlayerTargetPartnerClimaxList",
+			"info": "OStatFacialWithPlayerTargetPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x8FD"
 		},

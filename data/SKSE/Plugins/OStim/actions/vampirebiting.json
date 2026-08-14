@@ -46,7 +46,7 @@
 			"formid": "0x80F"
 		},
 		"playerStatList":{
-			"info": "OStimVampireBitingWithPlayerActorList",
+			"info": "OStatVampireBitingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x8B1"
 		}
@@ -72,7 +72,7 @@
 			"formid": "0x810"
 		},
 		"playerStatList":{
-			"info": "OStimVampireBitingWithPlayerTargetList",
+			"info": "OStatVampireBitingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x8B2"
 		}

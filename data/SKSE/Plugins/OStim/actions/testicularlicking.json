@@ -50,12 +50,12 @@
 			"formid": "0x997"
 		},
 		"playerStatList":{
-			"info": "OStimTesticularLickingWithPlayerActorList",
+			"info": "OStatTesticularLickingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x99A"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimTesticularLickingWithPlayerActorPartnerClimaxList",
+			"info": "OStatTesticularLickingWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x99B"
 		}
@@ -102,12 +102,12 @@
 			"formid": "0x999"
 		},
 		"playerStatList":{
-			"info": "OStimTesticularLickingWithPlayerTargetList",
+			"info": "OStatTesticularLickingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x99C"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimTesticularLickingWithPlayerTargetClimaxList",
+			"info": "OStatTesticularLickingWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x99D"
 		},

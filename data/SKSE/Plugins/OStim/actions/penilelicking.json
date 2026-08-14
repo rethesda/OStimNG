@@ -47,12 +47,12 @@
 			"formid": "0x987"
 		},
 		"playerStatList":{
-			"info": "OStimPenileLickingWithPlayerActorList",
+			"info": "OStatPenileLickingWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x98A"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimPenileLickingWithPlayerActorPartnerClimaxList",
+			"info": "OStatPenileLickingWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x98B"
 		},
@@ -103,12 +103,12 @@
 			"formid": "0x989"
 		},
 		"playerStatList":{
-			"info": "OStimPenileLickingWithPlayerTargetList",
+			"info": "OStatPenileLickingWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x98C"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimPenileLickingWithPlayerTargetClimaxList",
+			"info": "OStatPenileLickingWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x98D"
 		},

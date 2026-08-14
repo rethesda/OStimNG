@@ -26,12 +26,12 @@
 			"formid": "0x84E"
 		},
 		"playerStatList":{
-			"info": "OStimPenileStimulationWithPlayerActorList",
+			"info": "OStatPenileStimulationWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x896"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimPenileStimulationWithPlayerActorPartnerClimaxList",
+			"info": "OStatPenileStimulationWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x897"
 		}
@@ -63,12 +63,12 @@
 			"formid": "0x84D"
 		},
 		"playerStatList":{
-			"info": "OStimPenileStimulationWithPlayerTargetList",
+			"info": "OStatPenileStimulationWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x898"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimPenileStimulationWithPlayerTargetClimaxList",
+			"info": "OStatPenileStimulationWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x899"
 		}

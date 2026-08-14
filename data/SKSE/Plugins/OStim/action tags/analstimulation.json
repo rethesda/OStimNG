@@ -26,12 +26,12 @@
 			"formid": "0x9F9"
 		},
 		"playerStatList":{
-			"info": "OStimVaginalStimulationWithPlayerActorList",
+			"info": "OStatVaginalStimulationWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x9FF"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimVaginalStimulationWithPlayerActorPartnerClimaxList",
+			"info": "OStatVaginalStimulationWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0xA00"
 		}
@@ -63,12 +63,12 @@
 			"formid": "0x9FE"
 		},
 		"playerStatList":{
-			"info": "OStimVaginalStimulationWithPlayerTargetList",
+			"info": "OStatVaginalStimulationWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0xA01"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimVaginalStimulationWithPlayerTargetClimaxList",
+			"info": "OStatVaginalStimulationWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0xA02"
 		}

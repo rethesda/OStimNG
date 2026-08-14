@@ -46,12 +46,12 @@
 			"formid": "0x98F"
 		},
 		"playerStatList":{
-			"info": "OStimSuckingNippleWithPlayerActorList",
+			"info": "OStatSuckingNippleWithPlayerActorList",
 			"mod": "OStim.esp",
 			"formid": "0x992"
 		},
 		"playerPartnerClimaxStatList":{
-			"info": "OStimSuckingNippleWithPlayerActorPartnerClimaxList",
+			"info": "OStatSuckingNippleWithPlayerActorPartnerClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x993"
 		}
@@ -96,12 +96,12 @@
 			"formid": "0x991"
 		},
 		"playerStatList":{
-			"info": "OStimSuckingNippleWithPlayerTargetList",
+			"info": "OStatSuckingNippleWithPlayerTargetList",
 			"mod": "OStim.esp",
 			"formid": "0x994"
 		},
 		"playerClimaxStatList":{
-			"info": "OStimSuckingNippleWithPlayerTargetClimaxList",
+			"info": "OStatSuckingNippleWithPlayerTargetClimaxList",
 			"mod": "OStim.esp",
 			"formid": "0x995"
 		},
