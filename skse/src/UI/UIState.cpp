@@ -87,7 +87,9 @@ namespace UI {
         if (currentThread != thread) return;
         
         currentNode = node;
-        SKSE::GetTaskInterface()->AddTask([node]() {
+        SKSE::GetTaskInterface()->AddTask([thread]() {
+            if (UIState::GetSingleton()->currentThread != thread) return;
+            
             UI::Align::AlignMenu::GetMenu()->NodeChanged();
             UI::Scene::SceneMenu::GetMenu()->UpdateMenuData();
             UI::Scene::SceneMenu::GetMenu()->UpdateSpeed();
