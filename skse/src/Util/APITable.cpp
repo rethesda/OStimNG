@@ -10,5 +10,6 @@ namespace Util {
         OStimTimeUntilClimaxFaction.loadFile("OStim.esp", 0xE4A);
 
         OStatActorList.loadFile("OStim.esp", 0x85F);
+        OStatPlayerPartnerList.loadFile("OStim.esp", 0xA03);
     }
 }

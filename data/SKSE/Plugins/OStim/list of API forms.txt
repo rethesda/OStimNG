@@ -27,5 +27,9 @@ OStimInWaterFaction - 0xEDF
 
 ### Formlists ###
 
-OStimActorList - 0x815
+OStatActorList - 0x815
 	a list of all actors that have participated in an OStim scene at least once
+
+OStatPlayerPartnerList - 0xA03
+	a list of all actors that have participated in an OStim scene with the player at least once
+	does not contain the PC themselves

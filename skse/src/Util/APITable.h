@@ -16,6 +16,7 @@ namespace Util {
         static inline GameAPI::GameFaction getTimeUntilClimaxFaction() { return OStimTimeUntilClimaxFaction; }
 
         static inline GameAPI::GameList getActorList() { return OStatActorList; }
+        static inline GameAPI::GameList getPlayerPartnerList() { return OStatPlayerPartnerList; }
 
     private:
         static inline GameAPI::GameFaction OStimActorCountFaction;
@@ -26,5 +27,6 @@ namespace Util {
         static inline GameAPI::GameFaction OStimTimeUntilClimaxFaction;
 
         static inline GameAPI::GameList OStatActorList;
+        static inline GameAPI::GameList OStatPlayerPartnerList;
     };
 }

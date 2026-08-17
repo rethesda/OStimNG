@@ -149,7 +149,7 @@ void LocaleManager::ReadFromFile(const std::filesystem::path& a_path, bool a_eng
     constexpr auto NPOS = std::wstring::npos;
 
     auto& localizations = a_english ? _localizations_ENG : _localizations_LOC;
-    std::wifstream inFile(a_path);
+    std::wifstream inFile(a_path, std::ios::binary);
     inFile.imbue(std::locale(inFile.getloc(), new std::codecvt_utf16<wchar_t, 0x10FFFF, CVT_MODE>));  // UCS-2 LE w/ BOM
     std::wstring line;
     std::wstring key;
