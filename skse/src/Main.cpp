@@ -88,14 +88,14 @@ namespace {
     }
 }  // namespace
 
-extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const LoadInterface* skse) {
+SKSE_PLUGIN_LOAD(const LoadInterface* skse) {
     InitializeLogging();
 
     auto* plugin = PluginDeclaration::GetSingleton();
     auto version = plugin->GetVersion();
     log::info("{} {} is loading...", plugin->GetName(), version);
 
-    Init(skse);
+    Init(skse, {.trampoline = true, .trampolineSize = 42});
 
     auto message = SKSE::GetMessagingInterface();
     if (!message->RegisterListener(MessageHandler)) {
