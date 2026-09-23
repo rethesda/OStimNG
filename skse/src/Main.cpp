@@ -95,7 +95,10 @@ extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const LoadInterface* skse) {
     auto version = plugin->GetVersion();
     log::info("{} {} is loading...", plugin->GetName(), version);
 
-    Init(skse);
+    Init(skse, {
+        .trampoline = true,
+        .trampolineSize = 64,
+    });
 
     auto message = SKSE::GetMessagingInterface();
     if (!message->RegisterListener(MessageHandler)) {
