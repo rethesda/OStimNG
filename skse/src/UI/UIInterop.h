@@ -1,7 +1,9 @@
 #pragma once
 
+#include <ModAPI/OstimNG-API-Thread.h>
+
 namespace UI {
-    enum class Controls : uint8_t { Up, Down, Left, Right, Toggle, Yes, No, Menu, KEY_HIDE, AlignMenu, SearchMenu };
+    using Controls = OstimNG_API::Thread::Controls;
 
     inline static RE::GPtr<RE::IMenu> GetHud() {
         auto ui = RE::UI::GetSingleton();
