@@ -20,11 +20,6 @@
 #include "pugixml.hpp"
 #include "nlohmann/json.hpp"
 
-#define DLLEXPORT __declspec(dllexport)
-#ifndef SKSEAPI
-#define SKSEAPI __cdecl
-#endif
-
 using namespace std::literals;
 using namespace REL::literals;
 
@@ -65,5 +60,3 @@ namespace stld {
 
     inline std::string as_string(std::string_view a_view) { return {a_view.data(), a_view.size()}; }
 }  // namespace stl
-
-#define DLLEXPORT __declspec(dllexport)
