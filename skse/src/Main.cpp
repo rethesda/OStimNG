@@ -88,7 +88,7 @@ namespace {
     }
 }  // namespace
 
-extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const LoadInterface* skse) {
+SKSE_EXPORT bool SKSEPlugin_Load(const LoadInterface* skse) {
     InitializeLogging();
 
     auto* plugin = PluginDeclaration::GetSingleton();

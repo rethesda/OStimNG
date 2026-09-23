@@ -660,7 +660,7 @@ namespace OstimNG_API::Thread
 
 OstimNG_API::Thread::IThreadInterface* g_ostimThreadInterface = nullptr;
 
-extern "C" DLLEXPORT OstimNG_API::Thread::IThreadInterface* SKSEAPI RequestPluginAPI_Thread(
+SKSE_EXPORT OstimNG_API::Thread::IThreadInterface* RequestPluginAPI_Thread(
     const OstimNG_API::Thread::InterfaceVersion version,
     const char* pluginName,
     REL::Version pluginVersion)

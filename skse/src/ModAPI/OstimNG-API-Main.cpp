@@ -117,7 +117,7 @@ namespace OstimNG_API
 
 
 
-extern "C" DLLEXPORT OstimNG_API::Scene::SceneInterface* SKSEAPI RequestPluginAPI_Scene(const OstimNG_API::Scene::InterfaceVersion version, const char* pluginName, REL::Version pluginVersion)
+SKSE_EXPORT OstimNG_API::Scene::SceneInterface* RequestPluginAPI_Scene(const OstimNG_API::Scene::InterfaceVersion version, const char* pluginName, REL::Version pluginVersion)
 {
     const auto api = OstimNG_API::Scene::SceneInterface::GetSingleton(); 
 
