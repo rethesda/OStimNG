@@ -15,11 +15,11 @@ ScriptName OSKSE
 * * @return: the height slider value
 */; 
 float Function GetRmScale(Actor Act, bool IsFemale) Global
-	If nioverride.HasNodeTransformScale(Act, False, IsFemale, "NPC", "RSMPlugin")
-			Return nioverride.GetNodeTransformScale(Act, False, IsFemale, "NPC", "RSMPlugin")
-		Else
-			Return 1
-		EndIf
+	float Scale = nioverride.GetNodeTransformScale(Act, False, IsFemale, "NPC", "RSMPlugin")
+	If Scale == 0
+		Return 1
+	EndIf
+	Return Scale
 EndFunction
 
 ;/* UpdateHeelOffset
